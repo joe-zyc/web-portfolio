@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.en{
+    font-family: Roboto-Regular,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.zh{
+    font-family: -apple-system,Roboto-Regular,Roboto,"Microsoft Yahei",Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+    font-weight: 600;
+}
