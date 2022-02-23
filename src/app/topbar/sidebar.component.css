@@ -1,0 +1,27 @@
+mat-sidenav {
+    width: 140px;
+    background: #0047ab;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.content {
+    height: calc(100vh - 15px);
+    border-radius: 10px;
+    margin: 8px;
+    margin-left: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    color: lightgray;
+}
+
+.langSet{
+    bottom: 10px;
+    position: absolute;
+    left: 25px;
+}

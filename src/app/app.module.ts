@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { SidebarComponent } from './topbar/sidebar.component';
 
 // import ngx-translate and the http loader
 import { TranslateLoader, TranslateModule} from '@ngx-translate/core';
@@ -9,14 +10,16 @@ import { TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule} from '@angular/common/http';
 
 import { MaterialModule } from './material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
-    
+    BrowserAnimationsModule,
     MaterialModule,
 
     // ngx-translate and the loader module

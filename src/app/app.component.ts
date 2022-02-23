@@ -9,19 +9,8 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent {
   title = 'web_portfolio';
   
-  language = "ENG";
-
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('en');
-  }
-
-  changeLanguage() {
-    if (this.translate.currentLang === "en"){
-      this.translate.use('zh');
-      this.language = "中文";
-    }else{
-      this.translate.use('en');
-      this.language = "ENG";
-    }
+    translate.use(translate.defaultLang);
   }
 }
