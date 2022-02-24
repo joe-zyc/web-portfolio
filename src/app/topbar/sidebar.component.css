@@ -6,6 +6,17 @@ mat-sidenav {
     text-align: center;
 }
 
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 .content {
     height: calc(100vh - 15px);
     border-radius: 10px;
@@ -20,8 +31,18 @@ mat-sidenav {
     color: lightgray;
 }
 
-.langSet{
+.bottom-btns{
     bottom: 10px;
+    width: 90%;
     position: absolute;
-    left: 25px;
+    align-items: center;
+}
+
+.toolbar-name{
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar-name{
+    margin-top: 16px;
 }

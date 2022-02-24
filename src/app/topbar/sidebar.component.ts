@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
+import { ViewChild } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { BreakpointObserver } from '@angular/cdk/layout';
+
+import { MatSidenav } from '@angular/material/sidenav';
 
 const LANG : any = {
   "en": "ENG",
@@ -13,8 +17,23 @@ const LANG : any = {
 })
 
 export class SidebarComponent {
+  @ViewChild(MatSidenav) sidenav!: MatSidenav;
 
-  constructor(private translate: TranslateService) {
+  constructor(
+    private translate: TranslateService,
+    private breakpointObserver: BreakpointObserver) {
+  }
+
+  ngAfterViewInit() {
+    this.breakpointObserver.observe(['(max-width: 800px)']).subscribe((res) => {
+      if (res.matches) {
+        this.sidenav.mode = 'over';
+        this.sidenav.close();
+      } else {
+        this.sidenav.mode = 'side';
+        this.sidenav.open();
+      }
+    });
   }
 
   langPrompt = "ENG";

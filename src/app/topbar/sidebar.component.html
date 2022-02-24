@@ -1,25 +1,18 @@
-<!-- <div class="container">
-    <div class="row">
-        <div class="col-9">
-            <p>{{ 'test' | translate }}</p>
-        </div>
 
-        <div class="col-1">
-            <button mat-button 
-                (click)="changeLanguage()" 
-                class="{{this.lang}}">
-                    <mat-icon>language</mat-icon>
-                    {{ this.langPrompt }}
-            </button>
-        </div>
-
-    </div>
-</div> -->
+<mat-toolbar *ngIf="!snav.opened">
+    <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+    <span class="toolbar-name">
+        <a class="{{this.lang}}"> {{ 'name' | translate}} </a>
+    </span>
+</mat-toolbar>
 
 <mat-sidenav-container>
-    <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+
     <mat-sidenav #snav opened="true" mode="side">
-            <div class="langSet">
+        <p class="sidebar-name {{this.lang}}"> {{ 'name' | translate}} </p>
+        <mat-divider></mat-divider>
+        <div class="bottom-btns">
+            <div class="col">
                 <button mat-button 
                     (click)="changeLanguage()" 
                     class="{{this.lang}}">
@@ -27,7 +20,15 @@
                     {{ this.langPrompt }}
                 </button>
             </div>
+            <div class="col align-self-center">
+                <button mat-icon-button 
+                    (click)="snav.toggle()">
+                    <mat-icon>chevron_left</mat-icon>
+                </button>
+            </div>
+        </div>
     </mat-sidenav>
+
     <mat-sidenav-content>
         <div class="content">
             Main content here!
