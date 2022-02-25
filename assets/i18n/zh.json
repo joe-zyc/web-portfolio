@@ -1,3 +1,9 @@
 {
-    "name": "章玥辰"
+    "name": "章玥辰",
+    "about": "关于我",
+    "skills": "专业技能",
+    "education": "学业成就",
+    "experience": "工作经验",
+    "resume": "个人简历",
+    "contact": "联系我"
 }

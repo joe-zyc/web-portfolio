@@ -1,3 +1,9 @@
 {
-    "name": "Yuechen Zhang"
+    "name": "Yuechen Zhang",
+    "about": "About Me",
+    "skills": "Skills",
+    "education": "Academics",
+    "experience": "Experience",
+    "resume": "Resume",
+    "contact": "Contact Me"
 }
