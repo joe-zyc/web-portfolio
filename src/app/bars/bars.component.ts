@@ -11,12 +11,12 @@ const LANG : any = {
 }
 
 @Component({
-  selector: 'app-sidebar',
-  templateUrl: './sidebar.component.html',
-  styleUrls: ['./sidebar.component.css']
+  selector: 'app-bars',
+  templateUrl: './bars.component.html',
+  styleUrls: ['./bars.component.css']
 })
 
-export class SidebarComponent {
+export class BarComponent {
   @ViewChild(MatSidenav) sidenav!: MatSidenav;
 
   constructor(

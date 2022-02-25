@@ -1,0 +1,74 @@
+<mat-toolbar *ngIf="!snav.opened">
+    <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+    <div class="toolbar-name">
+        <div class="row">
+            <div class="col">
+                <a class="{{this.lang}}" style="height: 100%;"> {{ 'name' | translate}} </a>
+            </div>
+        </div>
+    </div>
+</mat-toolbar>
+
+<mat-sidenav-container>
+
+    <mat-sidenav #snav opened="true" mode="side">
+        <p class="sidebar-name {{this.lang}}"> {{ 'name' | translate}} </p>
+        <mat-divider></mat-divider>
+        
+        <div class="btns">
+            <button mat-button class="menu-button"
+                class="{{this.lang}}">
+                <mat-icon>account_circle</mat-icon>
+                <span>{{ 'about' | translate }}</span>
+            </button>
+            <button mat-button class="menu-button"
+                class="{{this.lang}}">
+                <mat-icon>manage_accounts</mat-icon>
+                <span>{{ 'skills' | translate }}</span>
+            </button>
+            <button mat-button class="menu-button"
+                class="{{this.lang}}">
+                <mat-icon>school</mat-icon>
+                <span>{{ 'education' | translate }}</span>
+            </button>
+            <button mat-button class="menu-button"
+                class="{{this.lang}}">
+                <mat-icon>explore</mat-icon>
+                <span>{{ 'experience' | translate }}</span>
+            </button>
+            <button mat-button class="menu-button"
+                class="{{this.lang}}">
+                <mat-icon>folder</mat-icon>
+                <span>{{ 'resume' | translate }}</span>
+            </button>
+            <button mat-button class="menu-button"
+                class="{{this.lang}}">
+                <mat-icon>email</mat-icon>
+                <span>{{ 'contact' | translate }}</span>
+            </button>
+            
+
+        </div>
+        
+        <div class="bottom-btns">
+            <button mat-button
+                (click)="changeLanguage()" 
+                class="{{this.lang}}">
+                <mat-icon>language</mat-icon>
+                {{ this.langPrompt }}
+            </button>
+
+            <button mat-icon-button 
+                (click)="snav.toggle()">
+                <mat-icon>chevron_left</mat-icon>
+            </button>
+        </div>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <div class="content">
+            Main content here!
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+

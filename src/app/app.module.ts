@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { SidebarComponent } from './topbar/sidebar.component';
+import { BarComponent } from './bars/bars.component';
 
 // import ngx-translate and the http loader
 import { TranslateLoader, TranslateModule} from '@ngx-translate/core';
@@ -15,7 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent
+    BarComponent
   ],
   imports: [
     BrowserModule,
