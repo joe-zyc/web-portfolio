@@ -20,6 +20,10 @@ mat-toolbar {
     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 11%);
 }
 
+.toolbar-placeholder{
+    height: 70px;
+}
+
 mat-icon {
     margin-right: 6px;
 }

@@ -19,15 +19,19 @@
     margin-bottom: 6px;
 }
 
-.even{
+.content{
     background-color: #fff;
+    opacity: 0.1;
+    background-image: radial-gradient(#0047ab 1px, #e5e5f7 1px);
+    background-size: 15px 15px;
+    min-height: calc(100vh - 70px);
 }
 
 .header{
     font-size: 32px;
     font-weight: 700;
     background-color: inherit;
-    margin-left: 40px;
+    margin-left: 25px;
     padding-bottom: 10px;
 }
 

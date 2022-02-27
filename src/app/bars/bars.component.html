@@ -38,7 +38,7 @@
             </button>
             <button mat-button class="menu-button"
                 class="{{this.lang}}">
-                <mat-icon>email</mat-icon>
+                <mat-icon>perm_contact_calendar</mat-icon>
                 <span>{{ 'contact' | translate }}</span>
             </button>
             <a href="/web-portfolio/assets/resume/{{this.lang}}.pdf" style="color: white;">
@@ -66,6 +66,9 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
+        <div class="toolbar-placeholder" *ngIf="!snav.opened">
+            &nbsp;
+        </div>
         <app-content [lang]="lang"></app-content>
     </mat-sidenav-content>
 </mat-sidenav-container>
