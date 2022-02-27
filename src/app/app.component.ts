@@ -8,9 +8,16 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'web_portfolio';
+  lang = 'en'
   
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('en');
+    translate.setDefaultLang(this.lang);
     translate.use(translate.defaultLang);
+    localStorage.setItem("lang", translate.currentLang);
+  }
+
+  changeLanguage(){
+    this.lang = this.lang === "en" ? "zh" : "en"
+    this.translate.use(this.lang);
   }
 }

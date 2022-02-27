@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { ViewChild } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { BreakpointObserver } from '@angular/cdk/layout';
@@ -18,6 +18,13 @@ const LANG : any = {
 
 export class BarComponent {
   @ViewChild(MatSidenav) sidenav!: MatSidenav;
+  @Input() lang = ""; 
+  @Output() changeLang = new EventEmitter();
+  langPrompt = ""; 
+  
+  ngOnInit(){
+    this.langPrompt = LANG[this.lang];
+  }
 
   constructor(
     private translate: TranslateService,
@@ -35,13 +42,9 @@ export class BarComponent {
       }
     });
   }
-
-  langPrompt = "ENG";
-  lang = this.translate.currentLang;
   
   changeLanguage() {
-    this.lang = this.lang === "en" ? "zh" : "en"
-    this.translate.use(this.lang);
-    this.langPrompt = LANG[this.lang];
+    this.langPrompt = LANG[this.lang === "en" ? "zh" : "en"];
+    this.changeLang.emit();  
   }
 }
