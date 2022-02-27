@@ -4,8 +4,8 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { BarComponent } from './bars/bars.component';
-
 import { ContentComponent } from './content/content.component';
+import { ContactComponent } from './content/contact/contact.component';
 
 // import ngx-translate and the http loader
 import { TranslateLoader, TranslateModule} from '@ngx-translate/core';
@@ -20,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     BarComponent,
     ContentComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
