@@ -1,11 +1,37 @@
-<div class="container-fluid odd">
+<div class="container-fluid head">
     <div class="header">
         <mat-icon class="header-icon">perm_contact_calendar</mat-icon>
             {{ 'contactHead' | translate }}   
     </div>
 </div> 
-<div class="container-fluid">
-    <div class="content">
-    </div>
+<div class="container-fluid detail">
+    <a href="mailto:joe.zhangyuechen@hotmail.com">
+        <div class="contact-detail">
+            <fa-icon
+            class="contact-icon"
+            [icon]="faEnvelope"
+            size="2x"></fa-icon>
+            joe.zhangyuechen@hotmail.com
+        </div>
+    </a>
+    <a href="https://github.com/joe-zyc" target="_blank">
+        <div class="contact-detail">
+            <fa-icon
+            class="contact-icon"
+            [icon]="faGithub"
+            size="2x"></fa-icon>
+            github.com/joe-zyc
+        </div>
+    </a>
+    <a href="https://www.linkedin.com/in/yuechen-zhang-a92515187/"
+       target="_blank">
+       <div class="contact-detail">
+            <fa-icon
+            class="contact-icon"
+            [icon]="faLinkedin"
+            size="2x"></fa-icon>
+            linkedin.com/in/yuechen-zhang-a92515187/
+        </div>
+    </a>
 </div>
 

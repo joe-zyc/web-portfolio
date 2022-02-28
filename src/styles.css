@@ -13,18 +13,19 @@
     font-weight: 500;
 }
 
-.odd{
+.head{
     background-color: #F0F0F0;
     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 11%);
     margin-bottom: 6px;
 }
 
-.content{
+.detail{
     background-color: #fff;
-    opacity: 0.1;
-    background-image: radial-gradient(#0047ab 1px, #e5e5f7 1px);
+    opacity: 0.7;
+    background-image: radial-gradient(#87cefa 1px, #fff 1px);
     background-size: 15px 15px;
     min-height: calc(100vh - 70px);
+    color: black;
 }
 
 .header{
@@ -40,4 +41,13 @@
     position: relative;
     top: 10px;
     right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
 }

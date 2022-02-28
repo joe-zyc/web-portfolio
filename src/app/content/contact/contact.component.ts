@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
     selector: 'app-contact',
@@ -9,6 +11,10 @@ import { TranslateService } from '@ngx-translate/core';
 
 export class ContactComponent {
     @Input() lang = "";
+    faGithub = faGithub;
+    faEnvelope = faEnvelope;
+    faLinkedin = faLinkedin;
+
     constructor(
         private translate: TranslateService) {
     }
