@@ -7,7 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'web_portfolio';
+  title = 'joe-zhang-portfolio';
   lang = 'en'
   
   constructor(private translate: TranslateService) {

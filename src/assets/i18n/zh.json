@@ -1,9 +1,13 @@
 {
     "name": "章玥辰",
     "about": "关于我",
+    "aboutHead": "关于我",
     "skills": "专业技能",
-    "education": "学业成就",
+    "skillHead": "专业技能",
+    "academic": "学业成就",
+    "academicHead": "学业成就",
     "experience": "工作经验",
+    "experienceHead": "工作经验",
     "resume": "个人简历",
     "contact": "联系方式",
     "contactHead": "联系方式"

@@ -1,9 +1,13 @@
 {
     "name": "Yuechen Zhang",
     "about": "About Me",
+    "aboutHead": "ABOUT ME",
     "skills": "Skills",
-    "education": "Academics",
+    "skillHead": "SKILLS", 
+    "academic": "Academics",
+    "academicHead": "ACADEMICS",
     "experience": "Experience",
+    "experienceHead": "EXPERIENCE",
     "resume": "Resume",
     "contact": "Contact Me",
     "contactHead": "CONTACT"
