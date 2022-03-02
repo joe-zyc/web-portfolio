@@ -11,6 +11,7 @@ import { ExperienceComponent } from './content/experience/experience.component';
 import { SkillComponent } from './content/skill/skill.component'
 import { AboutComponent } from './content/about/about.component';
 import { AcademicComponent } from './content/academic/academic.component';
+import { HomeComponent } from './content/home/home.component';
 
 // import ngx-translate and the http loader
 import { TranslateLoader, TranslateModule} from '@ngx-translate/core';
@@ -19,6 +20,7 @@ import { HttpClient, HttpClientModule} from '@angular/common/http';
 
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxTypedJsModule } from 'ngx-typed-js';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SkillComponent,
     AboutComponent,
     AcademicComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +40,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     MaterialModule,
     FontAwesomeModule,
+    NgxTypedJsModule,
 
     // ngx-translate and the loader module
     HttpClientModule,

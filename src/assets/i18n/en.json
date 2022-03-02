@@ -10,5 +10,6 @@
     "experienceHead": "EXPERIENCE",
     "resume": "Resume",
     "contact": "Contact Me",
-    "contactHead": "CONTACT"
+    "contactHead": "CONTACT",
+    "listForTyped": ["Data Science", "Computer Science", "Machine Learning"]
 }
