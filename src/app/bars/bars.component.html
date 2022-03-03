@@ -81,7 +81,7 @@
         <div class="toolbar-placeholder" *ngIf="!snav.opened">
             &nbsp;
         </div>
-        <app-content [lang]="lang"></app-content>
+        <app-content [lang]="lang" [sidenavStatus]="snav.opened"></app-content>
     </mat-sidenav-content>
 </mat-sidenav-container>
 

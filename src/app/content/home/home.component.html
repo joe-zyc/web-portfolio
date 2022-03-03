@@ -1,4 +1,4 @@
-<div class="home">
+<!-- 
     <span *ngFor="let style of styles">
         <ngx-typed-js [ngStyle] ="style"
             [strings]= "lang === 'en' ? enList : zhList"
@@ -10,4 +10,17 @@
             <span class="typing"></span>
         </ngx-typed-js>
     </span>
+</div> -->
+<div class="home" (click)="changeWords()">
+    <angular-d3-cloud
+        [width]="width"
+        [height]="height"
+        [data]="enList"
+        [padding]="10"
+        font="serif"
+        [rotate]="0"
+        [autoFill]="true"
+        [animations]="true"
+    >
+    </angular-d3-cloud>
 </div>

@@ -20,7 +20,7 @@ import { HttpClient, HttpClientModule} from '@angular/common/http';
 
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgxTypedJsModule } from 'ngx-typed-js';
+import { AngularD3CloudModule } from 'angular-d3-cloud'
 
 @NgModule({
   declarations: [
@@ -40,7 +40,7 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
     BrowserAnimationsModule,
     MaterialModule,
     FontAwesomeModule,
-    NgxTypedJsModule,
+    AngularD3CloudModule,
 
     // ngx-translate and the loader module
     HttpClientModule,
