@@ -1,7 +1,11 @@
-<mat-toolbar *ngIf="!snav.opened">
+<mat-toolbar class="border" *ngIf="!snav.opened">
     <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
     <div class="toolbar-name">
-                <a class="{{this.lang}}" style="height: 100%;"> {{ 'name' | translate}} </a>
+                <a href="#home" 
+                   class="{{this.lang}}" 
+                   style="height: 100%; color: white"> 
+                   {{ 'name' | translate}} 
+                </a>
     </div>
     <button mat-icon-button 
                 (click)="changeLanguage()" >
@@ -12,7 +16,12 @@
 <mat-sidenav-container>
 
     <mat-sidenav #snav opened="true" mode="side">
-        <p class="sidebar-name {{this.lang}}"> {{ 'name' | translate}} </p>
+        
+        <p class="sidebar-name {{this.lang}}"> 
+            <a href="#home" style="color: white;">
+                {{ 'name' | translate}}
+            </a>
+        </p>
         <mat-divider></mat-divider>
         
         <div class="btns">
@@ -78,9 +87,6 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
-        <div class="toolbar-placeholder" *ngIf="!snav.opened">
-            &nbsp;
-        </div>
         <app-content [lang]="lang" [sidenavStatus]="snav.opened"></app-content>
     </mat-sidenav-content>
 </mat-sidenav-container>

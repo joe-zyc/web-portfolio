@@ -1,17 +1,4 @@
-<!-- 
-    <span *ngFor="let style of styles">
-        <ngx-typed-js [ngStyle] ="style"
-            [strings]= "lang === 'en' ? enList : zhList"
-            [loop]="true"
-            [typeSpeed]="100"
-            [backSpeed]="100"
-            [shuffle]="true"
-            >
-            <span class="typing"></span>
-        </ngx-typed-js>
-    </span>
-</div> -->
-<div class="home" (click)="changeWords()">
+<div class="home" id="home" [ngStyle]="{'margin-top': marginTop}">
     <angular-d3-cloud
         [width]="width"
         [height]="height"
