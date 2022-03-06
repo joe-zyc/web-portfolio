@@ -11,5 +11,8 @@
     "resume": "Resume",
     "contact": "Contact Me",
     "contactHead": "CONTACT",
-    "listForTyped": ["Data Science", "Computer Science", "Machine Learning"]
+    "aboutIntro": "Hello, Welcome to my site. My name is Yuechen Zhang, and usually, people call me Joe.",
+    "aboutCurStat": "I am currently an undergrad student from the University of Waterloo, pursuing my BCS Degree in Data Science. If everything happens as expected, I will be graduating in December 2022.",
+    "aboutExp": "My academic program also comes with Coop requirements. Hence, I already have over 1 year of working experience. From coursework and internships, I gained lots of knowledge and experience in Computer Science, Statistics, Machine Learning, Database Management, and Software Engineering.",
+    "aboutSkill": "Languages and Technologies I am proficient in include: C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git, etc. I will be demonstrating my knowledge in them in a later section."
 }

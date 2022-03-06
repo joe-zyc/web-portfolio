@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faKaggle, faLinkedin, faWeixin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
@@ -16,6 +16,8 @@ export class ContactComponent {
     faGithub = faGithub;
     faEnvelope = faEnvelope;
     faLinkedin = faLinkedin;
+    faKaggle = faKaggle;
+    faWeixin = faWeixin;
 
     constructor(
         private translate: TranslateService) {

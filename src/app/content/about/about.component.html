@@ -5,5 +5,29 @@
     </div>
 </div>
 <div class="container-fluid detail">
+    <p class="about-text" style="padding-top:40px">
+        {{ 'aboutIntro' | translate }}
+    </p>
+
+    <p class="about-text">
+        {{ 'aboutCurStat' | translate }}
+    </p>
+
+    <p class="about-text">
+        {{ 'aboutExp' | translate }}
+    </p>
+
+    <p class="about-text">
+        {{ 'aboutSkill' | translate }}
+    </p>
     
+    <div style="padding-top: 40px; padding-bottom: 40px;">
+        <a href="/web-portfolio/assets/resume/{{this.lang}}.pdf" class="about-btn">
+            My Resume
+        </a>
+    
+        <a href="#skill" class="about-btn">
+            Learn More
+        </a>
+    </div>
 </div>
