@@ -33,13 +33,13 @@
     font-weight: 700;
     background-color: inherit;
     margin-left: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
 }
 
 .header-icon{
     font-size: 40px;
     position: relative;
-    top: 10px;
+    top: 8px;
     right: 20px;
 }
 

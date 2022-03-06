@@ -3,7 +3,6 @@
     opacity: 0.7;
     background-image: radial-gradient(#87cefa 1px, #fff 1px);
     background-size: 15px 15px;
-    min-height: calc(100vh);
     color: black;
     align-items: center;
 }
