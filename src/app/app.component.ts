@@ -8,7 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'joe-zhang-portfolio';
-  lang = this.translate.currentLang
+  lang = '';
   
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('en');
@@ -19,6 +19,7 @@ export class AppComponent {
       translate.use(translate.defaultLang);
     }
     localStorage.setItem("lang", translate.currentLang);
+    this.lang = this.translate.currentLang;
   }
 
   changeLanguage(){
