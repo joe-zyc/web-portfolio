@@ -11,6 +11,8 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 export class ContactComponent {
     @Input() lang = "";
+    @Input() sidenavStatus = true;
+    
     faGithub = faGithub;
     faEnvelope = faEnvelope;
     faLinkedin = faLinkedin;

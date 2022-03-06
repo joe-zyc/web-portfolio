@@ -11,8 +11,13 @@ export class AppComponent {
   lang = 'en'
   
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang(this.lang);
-    translate.use(translate.defaultLang);
+    translate.setDefaultLang('en');
+    const browerLang = navigator.language.split('-')[0];
+    if (browerLang === 'zh') {
+      translate.use('zh');
+    } else {
+      translate.use(translate.defaultLang);
+    }
     localStorage.setItem("lang", translate.currentLang);
   }
 

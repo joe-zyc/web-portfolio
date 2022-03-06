@@ -24,7 +24,16 @@
     opacity: 0.7;
     background-image: radial-gradient(#87cefa 1px, #fff 1px);
     background-size: 15px 15px;
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 60px);
+    color: black;
+}
+
+.detail-without-sidebar{
+    background-color: #fff;
+    opacity: 0.7;
+    background-image: radial-gradient(#87cefa 1px, #fff 1px);
+    background-size: 15px 15px;
+    min-height: calc(100vh - 130px);
     color: black;
 }
 
@@ -40,7 +49,7 @@
     font-size: 40px;
     position: relative;
     top: 8px;
-    right: 20px;
+    right: 18px;
 }
 
 a {

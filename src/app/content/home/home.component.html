@@ -2,7 +2,7 @@
     <angular-d3-cloud id="home"
         [width]="width"
         [height]="height"
-        [data]="enTags"
+        [data]="lang==='en' ? enTags : zhTags"
         [padding]="10"
         font="serif"
         [rotate]="0"

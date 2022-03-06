@@ -24,11 +24,27 @@ export class HomeComponent {
         }
     }
 
+    joinTagList = [
+        'Data Science', 'Machine Learning', 'Python', 'JavaScript', 'C++', 'R', 'Front-end', 'Back-end',
+        'SVM', 'Computer Science', 'Cosmos', 'Jupyter Notebook', 'Deep Learning', 'DFT', 'Angular','Forecasting', 
+        'Compiler', 'XGBoost', 'Decision Tree', 'NLP', 'Clustering', 'Classification', 'K-Means', 'Assembly Language', 
+        'Nearest Neighbour', 'Random Forest', 'MLP', 'AI', 'CNN', 'DNN', 'RNN', 'C', 'HTML', 'CSS', 'Spark', 'Hadoop',
+        'TypeScript', 'Java', 'Probability', 'Linear Regression', 'Robust Regression', 'Cross Validation', 
+        'SQL', 'MySQL', 'Postgres', 'NoSql', 'MongoDB', 'AWS', 'Azure', 'Pandas', 'TensorFlow', 'Keras', 'Jupyter Lab',
+        'NLTK', 'Sentiment Analysis', 'Perdiction', 'Sklearn', 'Anaconda', 'NodeJs', 'NPM', 'Bootstrap', 'Github',
+        'Numpy', 'Web Scrap', 'Django', 'Flask', 'ARIMA', 'EM', 'FFT', 'Divide and Conquer', 'Dynamic Programming',
+        'Operating System', 'Linux', 'Bash', 'Git', 'Waterloo', 'UW', 'Toronto',  'Mean Shift', 'Regex', 'Power BI', 
+        'Tableau', 'Excel', 'BI', 'KPMG', 'Homebrew', 'pip', 'High GPA', '90+/100', 'RESTful', 'Google Cloud', 
+        'Database Management', 'Algorithms', 'Data Structure', 'Object-Oriented Programming ', 'Design Pattern', 
+        'ER Diagram', 'OOP', 'UML', 'Fast Fourier Transform', 'Graph Theory', 'Optimization', 'Gradient Descent', 
+        'QR Decomposition', 'Distributive System', 'MapReduce', 'SSH',
+    ]
+
     enTagList = [
         // technical terms
         'Data Science', 'Machine Learning', 'Python', 'JavaScript', 'C++', 'R', 'Front-end', 'Back-end',
         'SVM', 'Statistic', 'Math', 'Linear Algebra', 'Calculus', 'Computer Science', 'Cosmos', 'Jupyter Notebook',
-        'Deep Learning', 'Image Processing', 'DFT', 'Angular', 'Time Series', 'Forecasting', 'Compiler', 'ASCII',
+        'Deep Learning', 'Image Processing', 'DFT', 'Angular', 'Time Series', 'Forecasting', 'Compiler',
         'XGBoost', 'Decision Tree', 'NLP', 'Clustering', 'Classification', 'K-Means', 'Assembly Language', 
         'Nearest Neighbour', 'Random Forest', 'MLP', 'AI', 'CNN', 'DNN', 'RNN', 'C', 'HTML', 'CSS', 'Spark', 'Hadoop',
         'TypeScript', 'Java', 'Probability', 'Linear Regression', 'Robust Regression', 'Cross Validation', 
@@ -40,13 +56,26 @@ export class HomeComponent {
         'Regex', 'Power BI', 'Tableau', 'Excel', 'BI', 'Consulting', 'KPMG', 'ROP', 'Homebrew', 'pip', 'Data Visualization',
         'High GPA', '90+/100', 'RESTful', 'Google Cloud', 'Database Management', 'Algorithms', 'Data Structure',
         'Object-Oriented Programming ', 'Design Pattern', 'ER Diagram', 'OOP', 'UML', 'Fast Fourier Transform', 'Graph Theory',
-        'Optimization', 'Gradient Descent', 'QR Decomposition', 'Distributive System', 'MapReduce',
+        'Optimization', 'Gradient Descent', 'QR Decomposition', 'Distributive System', 'MapReduce', 'SSH',
 
         // soft skills
         'Effective Communication', 'Critical Thinker', 'Fast Learner', 'Time Management', 'Multi-Tasking', 'Work Under Pressure',
-        'Creative', 'Optimistic', 'Efficient'
+        'Creative', 'Optimistic', 'Efficient', 'Leadership', 'Teamwork', 'Collaboration', 'Patient', 'Hard Working', 'Independent'
     ];
-    zhTagList = this.enTagList;
+    zhTagList = [
+        ...this.joinTagList,
+        
+        // technical skills
+        '数据科学', '计算机科学', '软件工程', '软件开发', '前端', '后端', '全栈', '大数据', '数据库', '数据结构',
+        '算法', '多元微积分', '微积分', '线性代数', '人工智能', '深度学习', '编译器', '汇编语言', '图像处理', '自然语言处理',
+        '面向对象编程', '机器学习', '统计模型', '阿里云', '腾讯云', '数据分析', '数据可视化', '商业分析', '梯度下降', '分类算法',
+        '聚类算法', '线性回归', '统计模型', '时间序列', '序列预测', '情感分析(NLP)', '逻辑思维', '数据库管理', '操作系统', '网络',
+        '监督式学习', '非监督式学习', '虚拟机', '软件部署', '',
+        
+        // soft skills
+        '英文流利', '多年海外经历', '多年工作经验', '善沟通', '成绩优异', '专业知识扎实', '团队协同', '责任心', '时间把控', '多任务',
+        '效率高', '乐观', '思维活泼', '学习能力强', '强适应力', '认真', '细心', '强抗压能力', ''
+    ];
 
     enTags:any = [];
     zhTags:any = [];
