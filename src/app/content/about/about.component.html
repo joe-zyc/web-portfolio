@@ -4,7 +4,7 @@
             {{ 'aboutHead' | translate }}   
     </div>
 </div>
-<div class="container-fluid detail">
+<div class="container-fluid detail{{sidenavStatus ? '' : '-without-sidebar'}}">
     <p class="about-text" style="padding-top:40px">
         {{ 'aboutIntro' | translate }}
     </p>
@@ -21,13 +21,13 @@
         {{ 'aboutSkill' | translate }}
     </p>
     
-    <div style="padding-top: 40px; padding-bottom: 40px;">
+    <div style="padding-top: 40px; padding-bottom: 60px;">
         <a href="/web-portfolio/assets/resume/{{this.lang}}.pdf" class="about-btn">
-            My Resume
+            {{ 'resume' | translate }}
         </a>
     
-        <a href="#skill" class="about-btn">
-            Learn More
+        <a href="#contact" class="about-btn">
+            {{ 'contact' | translate }}
         </a>
     </div>
 </div>

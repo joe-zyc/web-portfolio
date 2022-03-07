@@ -1,20 +1,12 @@
 <mat-toolbar class="border" *ngIf="!snav.opened">
     <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
     <div class="toolbar-name">
-                <a href="#home" 
-                   class="{{this.lang}}" 
-                   style="height: 100%; color: white"> 
-                   {{ 'name' | translate}} 
-                </a>
+        <a href="#home"
+            class="{{this.lang}}" 
+            style="height: 100%; color: white"> 
+            {{ 'name' | translate}} 
+        </a>
     </div>
-    <a href="/web-portfolio/assets/resume/{{this.lang}}.pdf" 
-        target="_blank"
-        style="color: white; margin-right: 6px;">
-        <button mat-icon-button
-            class="{{this.lang}}">
-            <mat-icon>folder</mat-icon>
-        </button>
-    </a>
     <button mat-icon-button 
                 (click)="changeLanguage()" >
                 <mat-icon>language</mat-icon>

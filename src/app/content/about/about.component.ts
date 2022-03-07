@@ -9,6 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 
 export class AboutComponent {
     @Input() lang = "";
+    @Input() sidenavStatus = true;
 
     constructor(
         private translate: TranslateService) {
