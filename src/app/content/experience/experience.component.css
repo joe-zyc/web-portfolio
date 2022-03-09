@@ -1,0 +1,39 @@
+.exp-container {
+    width: 90%;
+    background-color: rgb(255, 255, 240);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 30%);
+    border-radius: 5px;
+}
+
+.exp-background {
+    padding-top: 50px;
+}
+
+.exp-divider {
+    border-top: 2px solid black;
+    margin: 0px 20px;
+}
+
+.title {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.period {
+    margin-right: 20px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.city {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.exp-detail {
+    margin-left: 20px;
+    font-size: 20px;
+}
