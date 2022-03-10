@@ -4,28 +4,26 @@
             {{ 'experienceHead' | translate }}   
     </div>
 </div>
-<div class="container-fluid detail {{this.lang}}">
-    <div class="exp-background">
+<div class="container-fluid detail {{this.lang}}" style="padding-bottom: 40px;">
+    <div class="exp-background" *ngFor="let exp of EXPs">
         <div class="exp-container">
             <div class="row">
                 <div class="col-8">
-                    <p class="title">KPMG LLP - <b>Data Science Intern</b></p>
+                    <p class="title">{{ exp + '.company' | translate }} - <b>{{ exp + '.position' | translate }}</b></p>
                 </div>
                 <div class="col-4">
-                    <p class="period">2022.01 - Present</p>
+                    <p class="period">{{ exp + '.duration' | translate }}</p>
                 </div>
             </div>
             <hr class="exp-divider">
             <div class="row">
                 <div class="col">
-                    <p class="city">Toronto, ON, Canada</p>
+                    <p class="city">{{ exp + '.location' | translate }}</p>
                 </div>
             </div>
-            <ul class="exp-detail">
-                <li>l1</li>
-                <li>l2</li>
-                <li>l3</li>
-              </ul>  
+            <ul class="exp-detail" *ngFor="let line of ( exp + '.detail' | translate)">
+                <li>{{ line }}</li>
+            </ul>  
         </div>
     </div>
 </div>

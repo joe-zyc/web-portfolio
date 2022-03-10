@@ -10,6 +10,11 @@ import { TranslateService } from '@ngx-translate/core';
 export class ExperienceComponent {
     @Input() lang = "";
 
+    EXPs: string[] = [
+        "exp_kpmg",
+        "exp_highhope",
+    ]
+
     constructor(
         private translate: TranslateService) {
     }
