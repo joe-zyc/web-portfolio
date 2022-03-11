@@ -29,8 +29,9 @@
 }
 
 .city {
-    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
+    text-align: right;
 }
 
 .exp-detail {

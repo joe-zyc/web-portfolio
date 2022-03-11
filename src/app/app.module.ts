@@ -8,9 +8,9 @@ import { BarComponent } from './bars/bars.component';
 import { ContentComponent } from './content/content.component';
 import { ContactComponent } from './content/contact/contact.component';
 import { ExperienceComponent } from './content/experience/experience.component';
-import { SkillComponent } from './content/skill/skill.component'
+import { ProjectComponent } from './content/project/project.component'
 import { AboutComponent } from './content/about/about.component';
-import { AcademicComponent } from './content/academic/academic.component';
+import { EducationComponent } from './content/education/education.component';
 import { HomeComponent } from './content/home/home.component';
 
 // import ngx-translate and the http loader
@@ -29,9 +29,9 @@ import { AngularD3CloudModule } from 'angular-d3-cloud'
     ContentComponent,
     ContactComponent,
     ExperienceComponent,
-    SkillComponent,
+    ProjectComponent,
     AboutComponent,
-    AcademicComponent,
+    EducationComponent,
     HomeComponent,
   ],
   imports: [

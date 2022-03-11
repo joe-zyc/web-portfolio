@@ -2,12 +2,12 @@ import { Component, Input } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-    selector: 'app-academic',
-    templateUrl: './academic.component.html',
-    styleUrls: ['./academic.component.css']
+    selector: 'app-project',
+    templateUrl: './project.component.html',
+    styleUrls: ['./project.component.css']
 })
 
-export class AcademicComponent {
+export class ProjectComponent {
     @Input() lang = "";
 
     constructor(

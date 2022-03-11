@@ -9,7 +9,9 @@
         <div class="exp-container">
             <div class="row">
                 <div class="col-8">
-                    <p class="title">{{ exp + '.company' | translate }} - <b>{{ exp + '.position' | translate }}</b></p>
+                    <p class="title">{{ exp + '.company' | translate }} -  
+                        <b>{{ exp + '.position' | translate }}</b> - {{ exp + '.location' | translate }}
+                    </p>
                 </div>
                 <div class="col-4">
                     <p class="period">{{ exp + '.duration' | translate }}</p>
@@ -17,8 +19,8 @@
             </div>
             <hr class="exp-divider">
             <div class="row">
-                <div class="col">
-                    <p class="city">{{ exp + '.location' | translate }}</p>
+                <div class="col text-align-right">
+                    <p class="city"></p>
                 </div>
             </div>
             <ul class="exp-detail" *ngFor="let line of ( exp + '.detail' | translate)">

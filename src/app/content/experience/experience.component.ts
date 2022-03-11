@@ -13,6 +13,8 @@ export class ExperienceComponent {
     EXPs: string[] = [
         "exp_kpmg",
         "exp_highhope",
+        "exp_rop",
+        "exp_overbond"
     ]
 
     constructor(
