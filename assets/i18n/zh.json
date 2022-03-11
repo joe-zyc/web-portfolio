@@ -2,10 +2,10 @@
     "name": "章玥辰",
     "about": "关于我",
     "aboutHead": "关于我",
-    "skills": "专业技能",
-    "skillHead": "专业技能",
-    "academic": "学业成就",
-    "academicHead": "学业成就",
+    "project": "项目经历",
+    "projectHead": "项目经历",
+    "education": "学业背景",
+    "educationHead": "学业背景",
     "experience": "工作经验",
     "experienceHead": "工作经验",
     "resume": "个人简历",
@@ -25,5 +25,18 @@
             "主要负责的任务有：前端页面重构，根据客服需求开发功能和页面，检测并修复BUG，从数据库拉去数据。",
             "使用JavaScript, TypeScript, Angular, Express, NPM等技术开发，能力显著提升。"
         ]
+    },
+    "exp_highhope": {
+        "company": "汇鸿汇升",
+        "position": "数据分析，数据库管理",
+        "duration": "2021.05 - 2021.07",
+        "location": "江苏南京",
+        "detail": [
+            "The team mainly focused on maintaining financial data purchased from financial data vendors, updating daily price data to the company's database, and make sure the data is cossistent across databases.",
+            "I also support other teams such as the production and the operation team by querying data, monitoring data updates, and producing financial reports.",
+            "Maintained data integrity over 3 databases with over 100 tables. Investigated and cleaned over 1 million mis-recorded and inconsistent records from these databases.",
+            "Developed and maintained programs that parses daily hedge fund net asset values from email bodies, and load the data into the databases",
+            "Mainly programming the scripts with Python and SQL. Gained practical knowledge in database management."
+        ]
     }
-}
+}                                                          
