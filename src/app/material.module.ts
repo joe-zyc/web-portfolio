@@ -6,13 +6,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 const materialModules = [
   MatIconModule,
   MatButtonModule,
   MatToolbarModule,
   MatSidenavModule,
-  MatDividerModule
+  MatDividerModule,
+  MatExpansionModule
 ];
 
 @NgModule({

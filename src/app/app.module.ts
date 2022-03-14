@@ -12,6 +12,7 @@ import { ProjectComponent } from './content/project/project.component'
 import { AboutComponent } from './content/about/about.component';
 import { EducationComponent } from './content/education/education.component';
 import { HomeComponent } from './content/home/home.component';
+import { PanelComponent } from './content/project/panel/panel.component'
 
 // import ngx-translate and the http loader
 import { TranslateLoader, TranslateModule} from '@ngx-translate/core';
@@ -33,6 +34,7 @@ import { AngularD3CloudModule } from 'angular-d3-cloud'
     AboutComponent,
     EducationComponent,
     HomeComponent,
+    PanelComponent,
   ],
   imports: [
     BrowserModule,
