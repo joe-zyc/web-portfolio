@@ -11,6 +11,7 @@ export class ExperienceComponent {
     @Input() lang = "";
 
     EXPs: string[] = [
+        "exp_babylist",
         "exp_kpmg",
         "exp_highhope",
         "exp_rop",

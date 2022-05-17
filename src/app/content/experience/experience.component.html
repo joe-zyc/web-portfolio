@@ -4,28 +4,27 @@
             {{ 'experienceHead' | translate }}   
     </div>
 </div>
-<div class="container-fluid detail {{this.lang}}" style="padding-bottom: 40px;">
-    <div class="exp-background" *ngFor="let exp of EXPs">
-        <div class="exp-container">
-            <div class="row">
-                <div class="col-8">
-                    <p class="title">{{ exp + '.company' | translate }} -  
-                        <b>{{ exp + '.position' | translate }}</b> - {{ exp + '.location' | translate }}
-                    </p>
-                </div>
-                <div class="col-4">
-                    <p class="period">{{ exp + '.duration' | translate }}</p>
-                </div>
+<div class="container-fluid detail {{this.lang}}" style="padding-top: 10px; padding-bottom: 10px">
+    <mat-expansion-panel [expanded]="true" class="panel" *ngFor="let exp of EXPs">
+        <mat-expansion-panel-header class="panel-header">
+            <mat-panel-title class="panel-title">
+                    <div class="col-8">
+                        <p class="title">{{ exp + '.company' | translate }} -  
+                            <b>{{ exp + '.position' | translate }}</b> - {{ exp + '.location' | translate }}
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <p class="period">{{ exp + '.duration' | translate }}</p>
+                    </div>
+                    <div class="col text-align-right">
+                        <p class="city"></p>
+                    </div>
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+            <div class="panel-content">
+                <ul *ngFor="let line of ( exp + '.detail' | translate)">
+                    <li>{{ line }}</li>
+                </ul>
             </div>
-            <hr class="exp-divider">
-            <div class="row">
-                <div class="col text-align-right">
-                    <p class="city"></p>
-                </div>
-            </div>
-            <ul class="exp-detail" *ngFor="let line of ( exp + '.detail' | translate)">
-                <li>{{ line }}</li>
-            </ul>  
-        </div>
-    </div>
+    </mat-expansion-panel>
 </div>
