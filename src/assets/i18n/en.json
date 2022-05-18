@@ -21,8 +21,8 @@
         "duration": "2022.05 - Present",
         "location": "Oakland, USA",
         "detail": [
-            "Utilizing Snowflake, DBT for data ETL.",
-            "Building data visialization dashboards."
+            "Utilizing Snowflake, DBT for data ETL (Anticipating)",
+            "Building data visialization dashboards (Anticipating)"
         ]
     },
     "exp_kpmg": {
@@ -31,10 +31,11 @@
         "duration": "2022.01 - 2022.04",
         "location": "Toronto, ON, Canada",
         "detail": [
-            "Working on a project that uses NLP Algorithms  on Regulatory Documents to help legislators and economists find regulations more efficiently, and assit them in making decisions.",
-            "Focusing on refactoring UI/UX, prototyping and developing new features, building RESTful APIs for features, detecting and fixing bugs, and building queries for extracting data.",
-            "Proposed and implemented createive features given clients are not clear on what is needed, and give limited instructions.",
-            "Fortified experience with JavaScript, TypeScript, Angular, Express, NPM, etc."
+            "Worked on a web application that present the data processed by the NLP Algorithms on Regulatory Documents to help legislators and economists find regulations more efficiently, and assit them in making decisions.",
+            "Focused on front-end implementation based on new UI/UX, prototyping and developing new features, building and testing APIs, detecting and fixing bugs, and conducting code refactoring.",
+            "Conducted code refactoring for the project, and modularized the code to follow object-oriented programming standards.",
+            "Proposed and implemented createive features given clients are not clear on what is needed, and give limited instructions. Managed to fulfill client requirements in a limited time.",
+            "Fortified experience with JavaScript, TypeScript, Angular, Express, NPM, Python, Spacy, Node, Git, etc."
         ]
     },
     "exp_highhope": {

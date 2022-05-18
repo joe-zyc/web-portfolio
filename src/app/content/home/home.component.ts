@@ -12,9 +12,10 @@ import { timer } from 'rxjs';
 export class HomeComponent {
     @Input() lang = "";
     @Input() sidenavStatus = true;
-    source = timer(0, 20 * 1000);
+    fontWeightIntercept = 0;
+    fontWeightRatio = 0;
+    source = timer(0, 100 * 1000);
     subscribe : any;
-    show = true;
     marginTop = this.sidenavStatus ? '0' : '70px';
 
     ngOnChanges(change : SimpleChange){
@@ -25,8 +26,8 @@ export class HomeComponent {
     }
 
     joinTagList = [
-        'Data Science', 'Machine Learning', 'Python', 'JavaScript', 'C++', 'R', 'Front-end', 'Back-end',
-        'SVM', 'Computer Science', 'Cosmos', 'Jupyter Notebook', 'Deep Learning', 'DFT', 'Angular','Forecasting', 
+        'Data Science', 'Machine Learning', 'Python', 'JavaScript', 'C++', 'R', 'Front-End', 'Back-End',
+        'SVM', 'Computer Science', 'Jupyter Notebook', 'Deep Learning', 'DFT', 'Angular','Time Series Forecasting', 
         'Compiler', 'XGBoost', 'Decision Tree', 'NLP', 'Clustering', 'Classification', 'K-Means', 'Assembly Language', 
         'Nearest Neighbour', 'Random Forest', 'MLP', 'AI', 'CNN', 'DNN', 'RNN', 'C', 'HTML', 'CSS', 'Spark', 'Hadoop',
         'TypeScript', 'Java', 'Probability', 'Linear Regression', 'Robust Regression', 'Cross Validation', 
@@ -34,34 +35,15 @@ export class HomeComponent {
         'NLTK', 'Sentiment Analysis', 'Perdiction', 'Sklearn', 'Anaconda', 'NodeJs', 'NPM', 'Bootstrap', 'Github',
         'Numpy', 'Web Scrap', 'Django', 'Flask', 'ARIMA', 'EM', 'FFT', 'Divide and Conquer', 'Dynamic Programming',
         'Operating System', 'Linux', 'Bash', 'Git', 'Waterloo', 'UW', 'Toronto',  'Mean Shift', 'Regex', 'Power BI', 
-        'Tableau', 'Excel', 'BI', 'KPMG', 'Homebrew', 'pip', 'High GPA', '90+/100', 'RESTful', 'Google Cloud', 
-        'Database Management', 'Algorithms', 'Data Structure', 'Object-Oriented Programming ', 'Design Pattern', 
-        'ER Diagram', 'OOP', 'UML', 'Fast Fourier Transform', 'Graph Theory', 'Optimization', 'Gradient Descent', 
-        'QR Decomposition', 'Distributive System', 'MapReduce', 'SSH',
-    ]
-
-    enTagList = [
-        // technical terms
-        'Data Science', 'Machine Learning', 'Python', 'JavaScript', 'C++', 'R', 'Front-end', 'Back-end',
-        'SVM', 'Statistic', 'Math', 'Linear Algebra', 'Calculus', 'Computer Science', 'Cosmos', 'Jupyter Notebook',
-        'Deep Learning', 'Image Processing', 'DFT', 'Angular', 'Time Series', 'Forecasting', 'Compiler',
-        'XGBoost', 'Decision Tree', 'NLP', 'Clustering', 'Classification', 'K-Means', 'Assembly Language', 
-        'Nearest Neighbour', 'Random Forest', 'MLP', 'AI', 'CNN', 'DNN', 'RNN', 'C', 'HTML', 'CSS', 'Spark', 'Hadoop',
-        'TypeScript', 'Java', 'Probability', 'Linear Regression', 'Robust Regression', 'Cross Validation', 
-        'SQL', 'MySQL', 'Postgres', 'NoSql', 'MongoDB', 'AWS', 'Azure', 'Pandas', 'TensorFlow', 'Keras', 'Jupyter Lab',
-        'NLTK', 'Sentiment Analysis', 'Perdiction', 'Sklearn', 'Anaconda', 'NodeJs', 'NPM', 'Bootstrap', 'Github',
-        'Numpy', 'Web Scrap', 'Django', 'Flask', 'ARIMA', 'EM', 'FFT', 'Divide and Conquer', 'Dynamic Programming',
-        'Greedy Algorithm', 'Big O Notation', 'Concurrency', 'Threading', 'Operating System', 'Linux', 'Bash', 'Git', 
-        'Exponential Smoothing', 'Statistical Testing', 'Waterloo', 'UW', 'Toronto', 'Mandarin', 'Mean Shift', 'Coop',
-        'Regex', 'Power BI', 'Tableau', 'Excel', 'BI', 'Consulting', 'KPMG', 'ROP', 'Homebrew', 'pip', 'Data Visualization',
-        'High GPA', '90+/100', 'RESTful', 'Google Cloud', 'Database Management', 'Algorithms', 'Data Structure',
-        'Object-Oriented Programming ', 'Design Pattern', 'ER Diagram', 'OOP', 'UML', 'Fast Fourier Transform', 'Graph Theory',
-        'Optimization', 'Gradient Descent', 'QR Decomposition', 'Distributive System', 'MapReduce', 'SSH',
+        'Tableau', 'Excel', 'BI', 'Homebrew', 'High GPA', 'Database', 'Algorithms', 'Data Structure', 'Object-Oriented Programming ', 
+        'Design Pattern', 'ER Modeling', 'OOP', 'Dimensional Modeling', 'Fast Fourier Transform', 'Graph Theory', 'Optimization', 'Gradient Descent', 
+        'Snowflake', 'DBT', 'Distributive System', 'MapReduce', 'SSH',
 
         // soft skills
         'Effective Communication', 'Critical Thinker', 'Fast Learner', 'Time Management', 'Multi-Tasking', 'Work Under Pressure',
         'Creative', 'Optimistic', 'Efficient', 'Leadership', 'Teamwork', 'Collaboration', 'Patient', 'Hard Working', 'Independent'
     ];
+
     zhTagList = [
         ...this.joinTagList,
         
@@ -70,7 +52,7 @@ export class HomeComponent {
         '算法', '多元微积分', '微积分', '线性代数', '人工智能', '深度学习', '编译器', '汇编语言', '图像处理', '自然语言处理',
         '面向对象编程', '机器学习', '统计模型', '阿里云', '腾讯云', '数据分析', '数据可视化', '商业分析', '梯度下降', '分类算法',
         '聚类算法', '线性回归', '统计模型', '时间序列', '序列预测', '情感分析(NLP)', '逻辑思维', '数据库管理', '操作系统', '网络',
-        '监督式学习', '非监督式学习', '虚拟机', '软件部署', '',
+        '监督式学习', '非监督式学习', '虚拟机', '数据仓库',
         
         // soft skills
         '英文流利', '多年海外经历', '多年工作经验', '善沟通', '成绩优异', '专业知识扎实', '团队协同', '责任心', '时间把控', '多任务',
@@ -91,14 +73,15 @@ export class HomeComponent {
     }
 
     changeWords(){
-        if (this.show) {
-            this.setTags();
-            this.setTagCloudDim();
+        if(window.innerWidth > 800){
+            this.fontWeightIntercept = 20;
+            this.fontWeightRatio = 50;
         } else {
-            this.setTags();
-            this.setTagCloudDim();
+            this.fontWeightIntercept = 10;
+            this.fontWeightRatio = 20;
         }
-        this.show = !this.show;
+        this.setTags();
+        this.setTagCloudDim();
     }
 
     shuffleArray(array: any) {
@@ -113,17 +96,17 @@ export class HomeComponent {
     doShuffle(array: any[]){
         this.shuffleArray(array);
         return array.map((d) => {
-            return { text: d, value: 10 + Math.random() * 50};
+            return { text: d, value: this.fontWeightIntercept + Math.random() * this.fontWeightRatio};
         })
     }
 
     setTagCloudDim(){
-        this.width = window.innerWidth - (this.sidenavStatus ? 160 : 20) - 1;
+        this.width = window.innerWidth - (this.sidenavStatus ? 160 : 20);
         this.height = window.innerHeight - (this.sidenavStatus ? 0 : 60);
     }
 
     setTags(){
-        this.enTags = this.doShuffle(this.enTagList);
+        this.enTags = this.doShuffle(this.joinTagList);
         this.zhTags = this.doShuffle(this.zhTagList);
     }
 }
