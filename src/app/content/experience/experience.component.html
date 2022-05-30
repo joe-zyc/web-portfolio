@@ -4,8 +4,8 @@
             {{ 'experienceHead' | translate }}   
     </div>
 </div>
-<div class="container-fluid detail {{this.lang}}" style="padding-top: 10px; padding-bottom: 10px">
-    <mat-expansion-panel [expanded]="true" class="panel" *ngFor="let exp of EXPs">
+<div class="container-fluid detail {{this.lang}} experience-panel">
+    <mat-expansion-panel [expanded]="!this.onPhone" class="panel" *ngFor="let exp of EXPs">
         <mat-expansion-panel-header class="panel-header">
             <mat-panel-title class="panel-title">
                     <div class="col-8">

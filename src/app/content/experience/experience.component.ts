@@ -18,7 +18,11 @@ export class ExperienceComponent {
         "exp_overbond"
     ]
 
+    onPhone: boolean = false;
+
     constructor(
         private translate: TranslateService) {
+            this.onPhone = window.innerWidth < 800;
     }
+
 }
