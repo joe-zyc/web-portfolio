@@ -1,81 +1,83 @@
 {
-    "name": "Yuechen Zhang",
-    "about": "About Me",
-    "aboutHead": "ABOUT ME",
-    "project": "Project",
-    "projectHead": "PROJECT", 
-    "education": "Education",
-    "educationHead": "EDUCATION",
-    "experience": "Experience",
-    "experienceHead": "EXPERIENCE",
-    "resume": "Resume",
-    "contact": "Contact",
-    "contactHead": "CONTACT",
-    "aboutIntro": "Hello, Welcome to my site. My name is Yuechen Zhang, and usually, people call me Joe.",
-    "aboutCurStat": "I am currently an undergrad student from the University of Waterloo, pursuing my BCS Degree in Data Science. If everything happens as expected, I will be graduating in December 2022.",
-    "aboutExp": "My academic program also comes with Coop requirements. Hence, I already have over 1 year of working experience. From coursework and internships, I gained lots of knowledge and experience in Computer Science, Statistics, Machine Learning, Database Management, and Software Engineering.",
-    "aboutSkill": "Languages and Technologies I am proficient in include: C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git, etc. I will be demonstrating my knowledge in them in a later section.",
-    "exp_babylist": {
-        "company": "Babylist",
-        "position": "Data Analytics, Engineering Intern",
-        "duration": "2022.05 - Present",
-        "location": "Oakland, USA",
-        "detail": [
-            "Utilizing Snowflake, DBT for data ETL (Anticipating)",
-            "Building data visialization dashboards (Anticipating)"
-        ]
-    },
-    "exp_kpmg": {
-        "company": "KPMG LLP",
-        "position": "Data Science Intern",
-        "duration": "2022.01 - 2022.04",
-        "location": "Toronto, ON, Canada",
-        "detail": [
-            "Worked on a web application that present the data processed by the NLP Algorithms on Regulatory Documents to help legislators and economists find regulations more efficiently, and assit them in making decisions.",
-            "Focused on front-end implementation based on new UI/UX, prototyping and developing new features, building and testing APIs, detecting and fixing bugs, and conducting code refactoring.",
-            "Conducted code refactoring for the project, and modularized the code to follow object-oriented programming standards.",
-            "Proposed and implemented createive features given clients are not clear on what is needed, and give limited instructions. Managed to fulfill client requirements in a limited time.",
-            "Fortified experience with JavaScript, TypeScript, Angular, Express, NPM, Python, Spacy, Node, Git, etc."
-        ]
-    },
-    "exp_highhope": {
-        "company": "High Hope Wisdom",
-        "position": "Data Analyst, DB Management",
-        "duration": "2021.05 - 2021.07",
-        "location": "Nanjing, Jiangsu, China",
-        "detail": [
-            "The team mainly focused on maintaining financial data purchased from financial data vendors, updating daily price data to the company's database, and make sure the data is consistent across databases.",
-            "I also support other teams such as the production and the operation team by querying data, monitoring data updates, and producing financial reports.",
-            "Maintained data integrity over 3 databases with over 100 tables. Investigated and cleaned over 1 million misrecorded and inconsistent records from these databases.",
-            "Developed and maintained programs that parse daily hedge fund net asset values from email bodies, and load the data into the databases.",
-            "Mainly programming the scripts with Python and SQL. Gained practical knowledge in database management."
-        ]
-    },
-    "exp_rop": {
-        "company": "Region of Peel",
-        "position": "Business Intelligence Analyst",
-        "duration": "2020.09 - 2020.12",
-        "location": "Brampton, Canada",
-        "detail": [
-            "Since I had a Computer Science background, I helped the team build intelligent tools that simplify repetitive jobs, digitize forms and manual works, and manage data produced.",
-            "Collaborated with team members for data migration, moved on-premise data into the cloud using MS Access, MS Flow, and SharePoint RESTful APIs.",
-            "Programmed MS Power App for a digital form used for job site inspections. Utilized MS Flow to generate PDF summaries and send auto email confirmations. Developed a Power BI dashboard to reveal the distribution of the answers.",
-            "Fostered problem-solving skills through proposing and building new management systems for the division’s contracts.",
-            "Enhanced communication skills developed by training over 40 employees on the new job site inspection procedure.",
-            "Built automation processes with MS Flow to automatically track locate complaints and locate information requests."
-        ]
-    },
-    "exp_overbond": {
-        "company": "Overbond",
-        "position": "Data Science Intern",
-        "duration": "2020.01 - 2020.04",
-        "location": "Toronto, Canada",
-        "detail": [
-            "Mainly focused on creating data visualization reports for the algorithm that predict bond yields. Also assisted in deploying scripts on AWS, and worked on some frontend features with React.",
-            "Built precision metrics for Overbond’s bond pricing algorithm and created visual reports of the algorithm’s precision errors using Python and Tableau.",
-            "Utilized Google Cloud API to update and send weekly precision reports for further collaboration with the Data Science team for algorithm precision improvements.",
-            "Assisted the research team to run developing models in AWS instances for speed. Developed solid skills in Pandas and R.",
-            "Collaborated with the software development team to implement web app features with JS and React."
-        ]
-    }
+  "name": "Yuechen Zhang",
+  "about": "About Me",
+  "aboutHead": "ABOUT ME",
+  "project": "Project",
+  "projectHead": "PROJECT",
+  "education": "Education",
+  "educationHead": "EDUCATION",
+  "experience": "Experience",
+  "experienceHead": "EXPERIENCE",
+  "resume": "Resume",
+  "contact": "Contact",
+  "contactHead": "CONTACT",
+  "aboutIntro": "Hello, Welcome to my site. My name is Yuechen Zhang, and usually, people call me Joe.",
+  "aboutCurStat": "I am currently an undergrad student from the University of Waterloo, pursuing my BCS Degree in Data Science. If everything happens as expected, I will be graduating in December 2022.",
+  "aboutExp": "My academic program also comes with Coop requirements. Hence, I already have over 1 year of working experience. From coursework and internships, I gained lots of knowledge and experience in Computer Science, Statistics, Machine Learning, Database Management, and Software Engineering.",
+  "aboutSkill": "Languages and Technologies I am proficient in include: C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git, etc. I will be demonstrating my knowledge in them in a later section.",
+  "transcript": "A Copy of my most recent unofficial transcript can be found",
+  "here": "here",
+  "exp_babylist": {
+    "company": "Babylist",
+    "position": "Data Analytics, Engineering Intern",
+    "duration": "2022.05 - Present",
+    "location": "Oakland, USA",
+    "detail": [
+      "Utilizing Snowflake, DBT for data ETL (Anticipating)",
+      "Building data visialization dashboards (Anticipating)"
+    ]
+  },
+  "exp_kpmg": {
+    "company": "KPMG LLP",
+    "position": "Data Science Intern",
+    "duration": "2022.01 - 2022.04",
+    "location": "Toronto, ON, Canada",
+    "detail": [
+      "Worked on a web application that present the data processed by the NLP Algorithms on Regulatory Documents to help legislators and economists find regulations more efficiently, and assit them in making decisions.",
+      "Focused on front-end implementation based on new UI/UX, prototyping and developing new features, building and testing APIs, detecting and fixing bugs, and conducting code refactoring.",
+      "Conducted code refactoring for the project, and modularized the code to follow object-oriented programming standards.",
+      "Proposed and implemented createive features given clients are not clear on what is needed, and give limited instructions. Managed to fulfill client requirements in a limited time.",
+      "Fortified experience with JavaScript, TypeScript, Angular, Express, NPM, Python, Spacy, Node, Git, etc."
+    ]
+  },
+  "exp_highhope": {
+    "company": "High Hope Wisdom",
+    "position": "Data Analyst, DB Management",
+    "duration": "2021.05 - 2021.07",
+    "location": "Nanjing, Jiangsu, China",
+    "detail": [
+      "The team mainly focused on maintaining financial data purchased from financial data vendors, updating daily price data to the company's database, and make sure the data is consistent across databases.",
+      "I also support other teams such as the production and the operation team by querying data, monitoring data updates, and producing financial reports.",
+      "Maintained data integrity over 3 databases with over 100 tables. Investigated and cleaned over 1 million misrecorded and inconsistent records from these databases.",
+      "Developed and maintained programs that parse daily hedge fund net asset values from email bodies, and load the data into the databases.",
+      "Mainly programming the scripts with Python and SQL. Gained practical knowledge in database management."
+    ]
+  },
+  "exp_rop": {
+    "company": "Region of Peel",
+    "position": "Business Intelligence Analyst",
+    "duration": "2020.09 - 2020.12",
+    "location": "Brampton, Canada",
+    "detail": [
+      "Since I had a Computer Science background, I helped the team build intelligent tools that simplify repetitive jobs, digitize forms and manual works, and manage data produced.",
+      "Collaborated with team members for data migration, moved on-premise data into the cloud using MS Access, MS Flow, and SharePoint RESTful APIs.",
+      "Programmed MS Power App for a digital form used for job site inspections. Utilized MS Flow to generate PDF summaries and send auto email confirmations. Developed a Power BI dashboard to reveal the distribution of the answers.",
+      "Fostered problem-solving skills through proposing and building new management systems for the division’s contracts.",
+      "Enhanced communication skills developed by training over 40 employees on the new job site inspection procedure.",
+      "Built automation processes with MS Flow to automatically track locate complaints and locate information requests."
+    ]
+  },
+  "exp_overbond": {
+    "company": "Overbond",
+    "position": "Data Science Intern",
+    "duration": "2020.01 - 2020.04",
+    "location": "Toronto, Canada",
+    "detail": [
+      "Mainly focused on creating data visualization reports for the algorithm that predict bond yields. Also assisted in deploying scripts on AWS, and worked on some frontend features with React.",
+      "Built precision metrics for Overbond’s bond pricing algorithm and created visual reports of the algorithm’s precision errors using Python and Tableau.",
+      "Utilized Google Cloud API to update and send weekly precision reports for further collaboration with the Data Science team for algorithm precision improvements.",
+      "Assisted the research team to run developing models in AWS instances for speed. Developed solid skills in Pandas and R.",
+      "Collaborated with the software development team to implement web app features with JS and React."
+    ]
+  }
 }
