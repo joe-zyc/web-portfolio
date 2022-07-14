@@ -27,14 +27,25 @@
     height: 100px;
 }
 
-.panel-title {
+.panel-title-phone {
     font-size: 16px;
 }
 
-.panel-content {
-    font-size: 14px;
+.panel-title-desktop {
+    font-size: 20px;
+}
+
+.panel-content-phone {
+    font-size: 16px;
     font-weight: 500;
-    margin-right: 20px
+    margin-right: 20px;
+}
+
+.panel-content-desktop {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    line-height: 1.8;
 }
 
 .experience-panel {

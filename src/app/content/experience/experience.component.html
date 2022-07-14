@@ -7,7 +7,7 @@
 <div class="container-fluid detail {{this.lang}} experience-panel">
     <mat-expansion-panel [expanded]="!this.onPhone" class="panel" *ngFor="let exp of EXPs">
         <mat-expansion-panel-header class="panel-header">
-            <mat-panel-title class="panel-title">
+            <mat-panel-title [ngClass]="{'panel-title-phone' : this.onPhone, 'panel-title-desktop' : !this.onPhone}">
                     <div class="col-8">
                         <p class="title">{{ exp + '.company' | translate }} -  
                             <b>{{ exp + '.position' | translate }}</b> - {{ exp + '.location' | translate }}
@@ -21,7 +21,7 @@
                     </div>
             </mat-panel-title>
         </mat-expansion-panel-header>
-            <div class="panel-content">
+            <div [ngClass]="{'panel-content-phone' : this.onPhone, 'panel-content-desktop' : !this.onPhone}">
                 <ul *ngFor="let line of ( exp + '.detail' | translate)">
                     <li>{{ line }}</li>
                 </ul>
