@@ -1,60 +1,43 @@
 <div class="container-fluid head" id="contact">
-    <div class="header">
-        <mat-icon class="header-icon">perm_contact_calendar</mat-icon>
-            {{ 'contactHead' | translate }}   
-    </div>
-</div> 
-<div class="container-fluid detail{{sidenavStatus ? '' : '-without-sidebar'}}">
-    
-    <div class="contact-detail">
-        <a href="mailto:joe.zhangyuechen@hotmail.com">
-            <fa-icon
-            class="contact-icon"
-            [icon]="faEnvelope"
-            size="2x"></fa-icon>
-            &nbsp;
-            joe.zhangyuechen@hotmail.com
-        </a>
-    </div>
-    <div class="contact-detail">
-        <a href="https://github.com/joe-zyc" target="_blank">
-            <fa-icon
-            class="contact-icon"
-            [icon]="faGithub"
-            size="2x"></fa-icon>
-            &nbsp;
-            github.com/joe-zyc
-        </a>
-    </div>
-    <div class="contact-detail">
-        <a href="https://www.kaggle.com/yuechenzhang"
-        target="_blank">
-            <fa-icon
-            class="contact-icon"
-            style="right:14px"
-            [icon]="faKaggle"
-            size="2x"></fa-icon>
-            &nbsp;&nbsp;&nbsp;
-            kaggle.com/yuechenzhang
-        </a>
-    </div>
-    <div class="contact-detail">
-        <a href="https://www.linkedin.com/in/joe-zyc/"
-        target="_blank">
-            <fa-icon
-            class="contact-icon"
-            [icon]="faLinkedin"
-            size="2x"></fa-icon>
-            &nbsp;
-            linkedin.com/in/joe-zyc/
-        </a>
-    </div>
-    <div class="contact-detail">
-        <fa-icon
-        class="contact-icon"
-        [icon]="faWeixin"
-        size="2x"></fa-icon>
-        sikywalker
-    </div>
+  <div class="header">
+    <mat-icon class="header-icon">perm_contact_calendar</mat-icon>
+    {{ "contactHead" | translate }}
+  </div>
 </div>
-
+<div
+  class="container-fluid detail{{ sidenavStatus ? '' : '-without-sidebar' }}"
+>
+  <div class="contact-detail">
+    <a href="mailto:joe.zhangyuechen@hotmail.com">
+      <fa-icon class="contact-icon" [icon]="faEnvelope" size="2x"></fa-icon>
+      &nbsp; joe.zhangyuechen@hotmail.com
+    </a>
+  </div>
+  <div class="contact-detail">
+    <a href="https://github.com/joe-zyc" target="_blank">
+      <fa-icon class="contact-icon" [icon]="faGithub" size="2x"></fa-icon>
+      &nbsp; github.com/joe-zyc
+    </a>
+  </div>
+  <div class="contact-detail">
+    <a href="https://www.kaggle.com/yuechenzhang" target="_blank">
+      <fa-icon
+        class="contact-icon"
+        style="right: 14px"
+        [icon]="faKaggle"
+        size="2x"
+      ></fa-icon>
+      &nbsp;&nbsp;&nbsp; kaggle.com/yuechenzhang
+    </a>
+  </div>
+  <div class="contact-detail">
+    <a href="https://www.linkedin.com/in/joe-zyc/" target="_blank">
+      <fa-icon class="contact-icon" [icon]="faLinkedin" size="2x"></fa-icon>
+      &nbsp; linkedin.com/in/joe-zyc/
+    </a>
+  </div>
+  <div class="contact-detail">
+    <fa-icon class="contact-icon" [icon]="faWeixin" size="2x"></fa-icon>
+    sikywalker
+  </div>
+</div>

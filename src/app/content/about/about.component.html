@@ -1,33 +1,40 @@
 <div class="container-fluid head" id="about">
-    <div class="header">
-        <mat-icon class="header-icon">account_circle</mat-icon>
-            {{ 'aboutHead' | translate }}   
-    </div>
+  <div class="header">
+    <mat-icon class="header-icon">account_circle</mat-icon>
+    {{ "aboutHead" | translate }}
+  </div>
 </div>
-<div class="container-fluid detail{{sidenavStatus ? '' : '-without-sidebar'}} {{this.lang}}">
-    <p class="about-text" style="padding-top:40px">
-        {{ 'aboutIntro' | translate }}
-    </p>
+<div
+  class="container-fluid detail{{ sidenavStatus ? '' : '-without-sidebar' }} {{
+    this.lang
+  }}"
+>
+  <p class="about-text" style="padding-top: 40px">
+    {{ "aboutIntro" | translate }}
+  </p>
 
-    <p class="about-text">
-        {{ 'aboutCurStat' | translate }}
-    </p>
+  <p class="about-text">
+    {{ "aboutCurStat" | translate }}
+  </p>
 
-    <p class="about-text">
-        {{ 'aboutExp' | translate }}
-    </p>
+  <p class="about-text">
+    {{ "aboutExp" | translate }}
+  </p>
 
-    <p class="about-text">
-        {{ 'aboutSkill' | translate }}
-    </p>
-    
-    <div style="padding-top: 40px; padding-bottom: 60px;">
-        <a href="/web-portfolio/assets/resume/{{this.lang}}.pdf" class="about-btn">
-            {{ 'resume' | translate }}
-        </a>
-    
-        <a href="#contact" class="about-btn">
-            {{ 'contact' | translate }}
-        </a>
-    </div>
+  <p class="about-text">
+    {{ "aboutSkill" | translate }}
+  </p>
+
+  <div style="padding-top: 40px; padding-bottom: 60px">
+    <a
+      href="/web-portfolio/assets/resume/{{ this.lang }}.pdf"
+      class="about-btn"
+    >
+      {{ "resume" | translate }}
+    </a>
+
+    <a href="#contact" class="about-btn">
+      {{ "contact" | translate }}
+    </a>
+  </div>
 </div>

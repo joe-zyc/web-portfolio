@@ -1,54 +1,54 @@
 .title {
-    margin-left: 10px;
-    padding-top: 20px;
+  margin-left: 10px;
+  padding-top: 20px;
 }
 
 .period {
-    margin-right: 10px;
-    padding-top: 20px;
-    text-align: right;
+  margin-right: 10px;
+  padding-top: 20px;
+  text-align: right;
 }
 
 .city {
-    margin-right: 20px;
-    margin-top: 20px;
-    text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-align: right;
 }
 
 .panel {
-    flex-direction: column;
-    margin-left: 6px;
-    margin-right: 6px;
-    height: auto;
-    margin-bottom: 4px;
+  flex-direction: column;
+  margin-left: 6px;
+  margin-right: 6px;
+  height: auto;
+  margin-bottom: 4px;
 }
 
 .panel-header {
-    height: 100px;
+  height: 100px;
 }
 
 .panel-title-phone {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .panel-title-desktop {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .panel-content-phone {
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
 }
 
 .panel-content-desktop {
-    font-size: 18px;
-    font-weight: 500;
-    margin-right: 20px;
-    line-height: 1.8;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 20px;
+  line-height: 1.8;
 }
 
 .experience-panel {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

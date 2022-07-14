@@ -3,60 +3,61 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "~bootstrap/dist/css/bootstrap.css";
 
-.en{
-    font-family: roboto,sans-serif;
-    font-weight: 400;
+.en {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
 }
 
-.zh{
-    font-family: "PingFang SC",Arial,"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53",simsun,sans-serif;
-    font-weight: 500;
+.zh {
+  font-family: "PingFang SC", Arial, "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53",
+    simsun, sans-serif;
+  font-weight: 500;
 }
 
-.head{
-    background-color: #F0F0F0;
-    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 30%);
-    margin-bottom: 6px;
+.head {
+  background-color: #f0f0f0;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 30%);
+  margin-bottom: 6px;
 }
 
-.detail{
-    background-color: #fff;
-    opacity: 0.7;
-    background-image: radial-gradient(#87cefa 1px, #fff 1px);
-    background-size: 15px 15px;
-    min-height: calc(100vh - 60px);
-    color: black;
+.detail {
+  background-color: #fff;
+  opacity: 0.7;
+  background-image: radial-gradient(#87cefa 1px, #fff 1px);
+  background-size: 15px 15px;
+  min-height: calc(100vh - 60px);
+  color: black;
 }
 
-.detail-without-sidebar{
-    background-color: #fff;
-    opacity: 0.7;
-    background-image: radial-gradient(#87cefa 1px, #fff 1px);
-    background-size: 15px 15px;
-    min-height: calc(100vh - 130px);
-    color: black;
+.detail-without-sidebar {
+  background-color: #fff;
+  opacity: 0.7;
+  background-image: radial-gradient(#87cefa 1px, #fff 1px);
+  background-size: 15px 15px;
+  min-height: calc(100vh - 130px);
+  color: black;
 }
 
-.header{
-    font-size: 32px;
-    font-weight: 700;
-    background-color: inherit;
-    margin-left: 25px;
-    padding-bottom: 4px;
+.header {
+  font-size: 32px;
+  font-weight: 700;
+  background-color: inherit;
+  margin-left: 25px;
+  padding-bottom: 4px;
 }
 
-.header-icon{
-    font-size: 40px;
-    position: relative;
-    top: 8px;
-    right: 18px;
+.header-icon {
+  font-size: 40px;
+  position: relative;
+  top: 8px;
+  right: 18px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-    color: black;
+  color: black;
 }

@@ -1,8 +1,8 @@
-.home{
-    background-color: #fff;
-    opacity: 0.7;
-    background-image: radial-gradient(#87cefa 1px, #fff 1px);
-    background-size: 15px 15px;
-    color: black;
-    align-items: center;
+.home {
+  background-color: #fff;
+  opacity: 0.7;
+  background-image: radial-gradient(#87cefa 1px, #fff 1px);
+  background-size: 15px 15px;
+  color: black;
+  align-items: center;
 }

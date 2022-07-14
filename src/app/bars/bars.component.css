@@ -1,51 +1,51 @@
 mat-sidenav {
-    width: 140px;
-    background: #0047ab;
-    color: white;
-    padding: 8px;
-    text-align: center;
-    position: fixed;
+  width: 140px;
+  background: #0047ab;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  position: fixed;
 }
 
 mat-divider {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 mat-toolbar {
-    position: fixed;
-    z-index: 2;
-    height: 70px;
-    background: #0047ab;
-    color: white;
+  position: fixed;
+  z-index: 2;
+  height: 70px;
+  background: #0047ab;
+  color: white;
 }
 
 mat-icon {
-    margin-right: 6px;
+  margin-right: 6px;
 }
 
-.bottom-btns{
-    bottom: 10px;
-    width: 90%;
-    position: absolute;
-    align-items: center;
+.bottom-btns {
+  bottom: 10px;
+  width: 90%;
+  position: absolute;
+  align-items: center;
 }
 
-.toolbar-name{
-    text-align: center;
-    width: 100%;
+.toolbar-name {
+  text-align: center;
+  width: 100%;
 }
 
-.sidebar-name{
-    margin-top: 16px;
+.sidebar-name {
+  margin-top: 16px;
 }
 
 .menu-button {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 14px;
-    margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  margin-top: 10px;
 }

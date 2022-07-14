@@ -1,33 +1,33 @@
 .panel {
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .panel-header {
-    height: 80px;
+  height: 80px;
 }
 
 .panel-title {
-    font-size: 16px;
-    font-weight: 700;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .panel-icon {
-    font-size: 30px;
-    margin-left:5px;
+  font-size: 30px;
+  margin-left: 5px;
 }
 
 .panel-detail {
-    margin-left: 20px;
-    font-size: 18px;
-    margin-right:20px;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-right: 20px;
 }
 
-li { 
-    margin: 0 0 20px 0;  
+li {
+  margin: 0 0 20px 0;
 }
 
 .imgs {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }

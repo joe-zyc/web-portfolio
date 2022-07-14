@@ -1,93 +1,83 @@
 <mat-toolbar *ngIf="!snav.opened">
-    <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
-    <div class="toolbar-name">
-        <a href="#home"
-            class="{{this.lang}}" 
-            style="height: 100%; color: white"> 
-            {{ 'name' | translate}} 
-        </a>
-    </div>
-    <button mat-icon-button 
-                (click)="changeLanguage()" >
-                <mat-icon>language</mat-icon>
-            </button>
+  <button mat-icon-button (click)="snav.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <div class="toolbar-name">
+    <a href="#home" class="{{ this.lang }}" style="height: 100%; color: white">
+      {{ "name" | translate }}
+    </a>
+  </div>
+  <button mat-icon-button (click)="changeLanguage()">
+    <mat-icon>language</mat-icon>
+  </button>
 </mat-toolbar>
 
 <mat-sidenav-container>
+  <mat-sidenav #snav opened="true" mode="side">
+    <p class="sidebar-name {{ this.lang }}">
+      <a href="#home" style="color: white">
+        {{ "name" | translate }}
+      </a>
+    </p>
+    <mat-divider></mat-divider>
 
-    <mat-sidenav #snav opened="true" mode="side">
-        
-        <p class="sidebar-name {{this.lang}}"> 
-            <a href="#home" style="color: white;">
-                {{ 'name' | translate}}
-            </a>
-        </p>
-        <mat-divider></mat-divider>
-        
-        <div class="btns">
-            <a href="#about" style="color: white;">
-                <button mat-button class="menu-button"
-                    class="{{this.lang}}">
-                    <mat-icon>account_circle</mat-icon>
-                    <span>{{ 'about' | translate }}</span>
-                </button>
-            </a>
-            <a href="#education" style="color: white;">
-                <button mat-button class="menu-button"
-                    class="{{this.lang}}">
-                    <mat-icon>school</mat-icon>
-                    <span>{{ 'education' | translate }}</span>
-                </button>
-            </a>
-            <a href="#experience" style="color: white;">
-                <button mat-button class="menu-button"
-                    class="{{this.lang}}">
-                    <mat-icon>explore</mat-icon>
-                    <span>{{ 'experience' | translate }}</span>
-                </button>
-            </a>
-            <!-- <a href="#project" style="color: white;">
+    <div class="btns">
+      <a href="#about" style="color: white">
+        <button mat-button class="menu-button" class="{{ this.lang }}">
+          <mat-icon>account_circle</mat-icon>
+          <span>{{ "about" | translate }}</span>
+        </button>
+      </a>
+      <a href="#education" style="color: white">
+        <button mat-button class="menu-button" class="{{ this.lang }}">
+          <mat-icon>school</mat-icon>
+          <span>{{ "education" | translate }}</span>
+        </button>
+      </a>
+      <a href="#experience" style="color: white">
+        <button mat-button class="menu-button" class="{{ this.lang }}">
+          <mat-icon>explore</mat-icon>
+          <span>{{ "experience" | translate }}</span>
+        </button>
+      </a>
+      <!-- <a href="#project" style="color: white;">
                 <button mat-button class="menu-button"
                 class="{{this.lang}}">
                 <mat-icon>apps</mat-icon>
                 <span>{{ 'project' | translate }}</span>
             </button>
             </a> -->
-            <a href="#contact" style="color: white;">
-                <button mat-button class="menu-button"
-                    class="{{this.lang}}">
-                    <mat-icon>perm_contact_calendar</mat-icon>
-                    <span>{{ 'contact' | translate }}</span>
-                </button>
-            </a>
-            <a href="/web-portfolio/assets/resume/{{this.lang}}.pdf" 
-               target="_blank"
-               style="color: white;">
-                <button mat-button class="menu-button"
-                    class="{{this.lang}}">
-                    <mat-icon>folder</mat-icon>
-                    <span>{{ 'resume' | translate }}</span>
-                </button>
-            </a>
-        </div>
-        
-        <div class="bottom-btns">
-            <button mat-button
-                (click)="changeLanguage()" 
-                class="{{this.lang}}">
-                <mat-icon>language</mat-icon>
-                {{ this.langPrompt }}
-            </button>
+      <a href="#contact" style="color: white">
+        <button mat-button class="menu-button" class="{{ this.lang }}">
+          <mat-icon>perm_contact_calendar</mat-icon>
+          <span>{{ "contact" | translate }}</span>
+        </button>
+      </a>
+      <a
+        href="/web-portfolio/assets/resume/{{ this.lang }}.pdf"
+        target="_blank"
+        style="color: white"
+      >
+        <button mat-button class="menu-button" class="{{ this.lang }}">
+          <mat-icon>folder</mat-icon>
+          <span>{{ "resume" | translate }}</span>
+        </button>
+      </a>
+    </div>
 
-            <button mat-icon-button 
-                (click)="snav.toggle()">
-                <mat-icon>chevron_left</mat-icon>
-            </button>
-        </div>
-    </mat-sidenav>
+    <div class="bottom-btns">
+      <button mat-button (click)="changeLanguage()" class="{{ this.lang }}">
+        <mat-icon>language</mat-icon>
+        {{ this.langPrompt }}
+      </button>
 
-    <mat-sidenav-content>
-        <app-content [lang]="lang" [sidenavStatus]="snav.opened"></app-content>
-    </mat-sidenav-content>
+      <button mat-icon-button (click)="snav.toggle()">
+        <mat-icon>chevron_left</mat-icon>
+      </button>
+    </div>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-content [lang]="lang" [sidenavStatus]="snav.opened"></app-content>
+  </mat-sidenav-content>
 </mat-sidenav-container>
-

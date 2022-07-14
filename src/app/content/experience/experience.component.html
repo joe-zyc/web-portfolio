@@ -1,30 +1,46 @@
 <div class="container-fluid head" id="experience">
-    <div class="header">
-        <mat-icon class="header-icon">explore</mat-icon>
-            {{ 'experienceHead' | translate }}   
-    </div>
+  <div class="header">
+    <mat-icon class="header-icon">explore</mat-icon>
+    {{ "experienceHead" | translate }}
+  </div>
 </div>
-<div class="container-fluid detail {{this.lang}} experience-panel">
-    <mat-expansion-panel [expanded]="!this.onPhone" class="panel" *ngFor="let exp of EXPs">
-        <mat-expansion-panel-header class="panel-header">
-            <mat-panel-title [ngClass]="{'panel-title-phone' : this.onPhone, 'panel-title-desktop' : !this.onPhone}">
-                    <div class="col-8">
-                        <p class="title">{{ exp + '.company' | translate }} -  
-                            <b>{{ exp + '.position' | translate }}</b> - {{ exp + '.location' | translate }}
-                        </p>
-                    </div>
-                    <div class="col-4">
-                        <p class="period">{{ exp + '.duration' | translate }}</p>
-                    </div>
-                    <div class="col text-align-right">
-                        <p class="city"></p>
-                    </div>
-            </mat-panel-title>
-        </mat-expansion-panel-header>
-            <div [ngClass]="{'panel-content-phone' : this.onPhone, 'panel-content-desktop' : !this.onPhone}">
-                <ul *ngFor="let line of ( exp + '.detail' | translate)">
-                    <li>{{ line }}</li>
-                </ul>
-            </div>
-    </mat-expansion-panel>
+<div class="container-fluid detail {{ this.lang }} experience-panel">
+  <mat-expansion-panel
+    [expanded]="!this.onPhone"
+    class="panel"
+    *ngFor="let exp of EXPs"
+  >
+    <mat-expansion-panel-header class="panel-header">
+      <mat-panel-title
+        [ngClass]="{
+          'panel-title-phone': this.onPhone,
+          'panel-title-desktop': !this.onPhone
+        }"
+      >
+        <div class="col-8">
+          <p class="title">
+            {{ exp + ".company" | translate }} -
+            <b>{{ exp + ".position" | translate }}</b> -
+            {{ exp + ".location" | translate }}
+          </p>
+        </div>
+        <div class="col-4">
+          <p class="period">{{ exp + ".duration" | translate }}</p>
+        </div>
+        <div class="col text-align-right">
+          <p class="city"></p>
+        </div>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div
+      [ngClass]="{
+        'panel-content-phone': this.onPhone,
+        'panel-content-desktop': !this.onPhone
+      }"
+    >
+      <ul *ngFor="let line of exp + '.detail' | translate">
+        <li>{{ line }}</li>
+      </ul>
+    </div>
+  </mat-expansion-panel>
 </div>

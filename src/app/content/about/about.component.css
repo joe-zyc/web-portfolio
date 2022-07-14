@@ -1,21 +1,21 @@
 .about-text {
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-top: 10px;
-    font-size: 24px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 10px;
+  font-size: 24px;
 }
 
 .about-btn {
-    border: 2px solid #0047ab;
-    background-color: #0047ab;
-    border-radius: 5px;
-    padding: 10px 30px;
-    margin-left: 28px;
-    color: white;
-    font-weight: 500;
+  border: 2px solid #0047ab;
+  background-color: #0047ab;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-left: 28px;
+  color: white;
+  font-weight: 500;
 }
 
 .about-btn:hover {
-    background-color: white;
-    color: #0047ab;
+  background-color: white;
+  color: #0047ab;
 }
