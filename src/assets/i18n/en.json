@@ -17,14 +17,23 @@
   "aboutSkill": "Languages and Technologies I am proficient in include: C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git, etc. I will be demonstrating my knowledge in them in a later section.",
   "transcript": "A Copy of my most recent unofficial transcript can be found",
   "here": "here",
+  "resumeURL": "http://www.joe-zyc.cn/static/resume/en.pdf",
+  "educationSummary": [
+    "As a fourth year Data Science student from the University of Waterloo with many Co-op experiences, I  ",
+    "",
+    ""
+  ],
+  "educationProjects": [],
   "exp_babylist": {
     "company": "Babylist",
     "position": "Data Analytics, Engineering Intern",
     "duration": "2022.05 - Present",
     "location": "Oakland, USA",
     "detail": [
-      "Utilizing Snowflake, DBT for data ETL (Anticipating)",
-      "Building data visialization dashboards (Anticipating)"
+      "Researched on self-service BI tools including Apache Superset, Metabase, ThoughtSpot, Mode, Google Looker and Sigma. Made detailed comparisons and contrasts between them, which helps the team in deciding the best BI tool to use for all stakeholders in the future.",
+      "Fortified communication skills and presentation skills by demoing 2 of the BI tools with the highest preference rank to the team. Clearly presented how to use the platforms as well as essential features for those 2 tools",
+      "Built dimensional models with DBT, Snowflake and SQL, designed and implemented dim and fact tables including products, warehouses, sales and etc.",
+      "Built data visialization dashboards with Mode, Thoughspot and Sigma."
     ]
   },
   "exp_kpmg": {
