@@ -12,16 +12,48 @@
   "contact": "Contact",
   "contactHead": "CONTACT",
   "aboutIntro": "Hello, Welcome to my site. My name is Yuechen Zhang, and usually, people call me Joe.",
-  "aboutCurStat": "I am currently an undergrad student from the University of Waterloo, pursuing my BCS Degree in Data Science. If everything happens as expected, I will be graduating in December 2022.",
+  "aboutCurStat": "I am currently an undergrad student from the University of Waterloo, pursuing my BCS Degree in Data Science. If everything happens as expected, I will be graduating in December 2022. After graduation, I would like to seek for full time opportunities.",
   "aboutExp": "My academic program also comes with Coop requirements. Hence, I already have over 1 year of working experience. From coursework and internships, I gained lots of knowledge and experience in Computer Science, Statistics, Machine Learning, Database Management, and Software Engineering.",
-  "aboutSkill": "Languages and Technologies I am proficient in include: C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git, etc. I will be demonstrating my knowledge in them in a later section.",
+  "aboutSkill": "Languages and Technologies I am proficient in include: C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git, DBT, Snowflake etc.",
   "transcript": "A Copy of my most recent unofficial transcript can be found",
   "here": "here",
   "resumeURL": "http://www.joe-zyc.cn/static/resume/en.pdf",
   "educationSummary": [
-    "As a fourth year Data Science student from the University of Waterloo with many Co-op experiences, I  ",
-    "",
-    ""
+    "I am a fourth year Data Science student from the University of Waterloo with 4.0 GPA",
+    "The degree requires us to take both computer science and statistic courses,",
+    "Including topics such as Machine Learning,  Data Structure, Algorithms, Operating Systems, Statistical Inference and etc.",
+    "I am also a faster learner who can quickly adapt to new environments and expand my tech stack."
+  ],
+  "schoolProjectInfo": "Here is also a list of projects that I have completed at school.",
+  "schoolProjects":[
+    {
+      "title": "STAT441 - Classification - Logistic Regression",
+      "url": "http://www.joe-zyc.cn/static/projects/stat441/STAT441%20HW1Q4.14.html"
+    },
+    {
+      "title": "STAT441 - Classification - Lasso Regression",
+      "url": "http://www.joe-zyc.cn/static/projects/stat441/STAT441%20HW2%20Q5.4.html"
+    },
+    {
+      "title": "STAT441 - Classification - Sentiment Analysis with Dutch Text using SVM",
+      "url": "http://www.joe-zyc.cn/static/projects/stat441/STAT441%20HW6%2012.8.html"
+    },
+    {
+      "title": "CS370 - Numerical Computation - Audio Enhancing",
+      "url": "http://www.joe-zyc.cn/static/projects/cs370/cs370_audio_enhancing.html"
+    },
+    {
+      "title": "CS370 - Numerical Computation - Interpolation and Parametric Spline",
+      "url": "http://www.joe-zyc.cn/static/projects/cs370/cs370_interpolation_parametric_spline.html"
+    },
+    {
+      "title": "CS370 - Numerical Computation - DCT and JPEG Compression",
+      "url": "http://www.joe-zyc.cn/static/projects/cs370/cs370_jpeg_compression.html"
+    },
+    {
+      "title": "CS246 - Object Oriented Programming - Watopoly (Waterloo Version of Monopoly) Using C++",
+      "url": "https://github.com/joe-zyc/cs246-watopoly"
+    }
   ],
   "educationProjects": [],
   "exp_babylist": {

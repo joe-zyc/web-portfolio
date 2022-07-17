@@ -4,14 +4,13 @@
     {{ "educationHead" | translate }}
   </div>
 </div>
-<div class="container-fluid detail">
-  <p class="about-text" style="padding-top: 40px">
-    Will add more detail in the future. Fourth Year Undergraduate student from
-    the University of Waterloo. Area of studies includes Computer Science, Data
-    Science, Machine Learning, Classification, Forecasting, Compiler, Data
-    Structure, Algorithms, Operating Systems, File Systems and etc.
-  </p>
-  <p class="about-text">
+<div class="container-fluid detail" style="padding-bottom: 40px">
+  <div *ngFor="let line of 'educationSummary' | translate " style="padding-top: 20px">
+    <p class="about-text">
+      {{ line }}
+    </p>
+  </div>
+  <p class="about-text" style="padding-top: 20px">
     <b
       >{{ 'transcript' | translate }}
       <a
@@ -23,4 +22,16 @@
       </a>
     </b>
   </p>
+  <p class="about-text" style="padding-top: 20px">
+    {{ 'schoolProjectInfo' | translate }}
+  </p>
+  <div *ngFor="let line of 'schoolProjects' | translate " style="padding-top: 20px">
+    <a 
+      class="project-text about-text" style="white-space: pre-wrap;"
+      href="{{ line.url | translate }}"
+      target="_blank"
+    >
+      {{ line.title | translate }}
+    </a>
+  </div>
 </div>
