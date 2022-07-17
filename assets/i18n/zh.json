@@ -17,12 +17,55 @@
   "aboutSkill": "在校，我的成绩优异，基础知识扎实。工作中，我思维活跃，适应能力强，可快速学习新知识，熟悉业务逻辑，在之前的工作经验中都获得同事的认可。对 C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git 等语言与技术我都十分熟悉。",
   "transcript": "我的一份成绩单（非最终）",
   "here": "在这里",
+  "resumeURL": "http://www.joe-zyc.cn/static/resume/zh.pdf",
+  "educationSummary": [
+    "I am a fourth year Data Science student from the University of Waterloo with 4.0 GPA",
+    "The degree requires us to take both computer science and statistic courses,",
+    "Including topics such as Machine Learning,  Data Structure, Algorithms, Operating Systems, Statistical Inference and etc.",
+    "I am also a faster learner who can quickly adapt to new environments and expand my tech stack."
+  ],
+  "schoolProjectInfo": "Here is also a list of projects that I have completed at school.",
+  "schoolProjects":[
+    {
+      "title": "STAT441 - Classification - Logistic Regression",
+      "url": "http://www.joe-zyc.cn/static/projects/stat441/STAT441%20HW1Q4.14.html"
+    },
+    {
+      "title": "STAT441 - Classification - Lasso Regression",
+      "url": "http://www.joe-zyc.cn/static/projects/stat441/STAT441%20HW2%20Q5.4.html"
+    },
+    {
+      "title": "STAT441 - Classification - Sentiment Analysis with Dutch Text using SVM",
+      "url": "http://www.joe-zyc.cn/static/projects/stat441/STAT441%20HW6%2012.8.html"
+    },
+    {
+      "title": "CS370 - Numerical Computation - Audio Enhancing",
+      "url": "http://www.joe-zyc.cn/static/projects/cs370/cs370_audio_enhancing.html"
+    },
+    {
+      "title": "CS370 - Numerical Computation - Interpolation and Parametric Spline",
+      "url": "http://www.joe-zyc.cn/static/projects/cs370/cs370_interpolation_parametric_spline.html"
+    },
+    {
+      "title": "CS370 - Numerical Computation - DCT and JPEG Compression",
+      "url": "http://www.joe-zyc.cn/static/projects/cs370/cs370_jpeg_compression.html"
+    },
+    {
+      "title": "CS246 - Object Oriented Programming - Watopoly (Waterloo Version of Monopoly) Using C++",
+      "url": "https://github.com/joe-zyc/cs246-watopoly"
+    }
+  ],
   "exp_babylist": {
     "company": "Babylist",
     "position": "数据分析，数据工程实习",
     "duration": "2022.05 - Present",
     "location": "奥克兰，美国",
-    "detail": ["使用Snowflake, DBT用于数据ETL。", "构建数据可视化工具。"]
+    "detail": [
+      "研究包括 Apache Superset、Metabase、ThoughtSpot、Mode、Google Looker 和 Sigma的自助式 BI 工具。对它们进行了详细的比较和对比，对团队选取 BI 工具起到重要贡献。", 
+      "强沟通技巧，演示技巧和英文能力。向团队演示 2 个 BI 工具，清楚地展示了如何使用这些平台以及他们的基本功能。",
+      "使用DBT、Snowflake和SQL构建Dimensional Models，设计并实现了产品、仓库、销售等维度表和事实表。",
+      "使用 Mode、Thoughtspot 和 Sigma 构建数据可视化仪表板。"
+    ]
   },
   "exp_kpmg": {
     "company": "毕马威",
