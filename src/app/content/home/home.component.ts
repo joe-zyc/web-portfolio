@@ -260,7 +260,7 @@ export class HomeComponent {
   }
 
   setTagCloudDim() {
-    this.width = window.innerWidth - (this.sidenavStatus ? 160 : 5);
+    this.width = window.innerWidth - (this.sidenavStatus ? 160 : 25);
     this.height = window.innerHeight - (this.sidenavStatus ? 0 : 60);
   }
 
