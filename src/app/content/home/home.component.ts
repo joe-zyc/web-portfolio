@@ -123,6 +123,11 @@ export class HomeComponent {
     "Gradient Descent",
     "Snowflake",
     "DBT",
+    "Spark",
+    "PySpark",
+    "Hive",
+    "NoSQL",
+    "Docker",
     "Distributive System",
     "MapReduce",
     "SSH",
@@ -196,8 +201,6 @@ export class HomeComponent {
 
     // soft skills
     "英文流利",
-    "多年海外经历",
-    "多年工作经验",
     "善沟通",
     "成绩优异",
     "专业知识扎实",

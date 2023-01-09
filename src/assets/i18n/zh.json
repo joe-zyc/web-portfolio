@@ -12,10 +12,10 @@
   "contact": "联系方式",
   "contactHead": "联系方式",
   "aboutIntro": "大家好，欢迎访问我的个人网站。我叫章玥辰，你也可以叫我Joe。",
-  "aboutCurStat": "我现在是一名在读留学生，就读于加拿大的滑铁卢大学。我的专业是计算机系的数据科学，并将毕业于2022年12月。",
-  "aboutExp": "在学校，我们每学期会花4个月的时间学习知识，并在之后的4个月加入公司实习。因此目前为止，我已经有超过1年的实习经验了。在这种学习+实习的环境下，我的专业能力飞速提升，实践经验包括：计算机科学，软件工程，数据科学，机器学习，数据库管理等领域。",
-  "aboutSkill": "在校，我的成绩优异，基础知识扎实。工作中，我思维活跃，适应能力强，可快速学习新知识，熟悉业务逻辑，在之前的工作经验中都获得同事的认可。对 C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git 等语言与技术我都十分熟悉。",
-  "transcript": "我的一份成绩单（非最终）",
+  "aboutCurStat": "我于2022年12月毕业于加拿大的滑铁卢大学。我的专业是计算机系的数据科学。",
+  "aboutExp": "实践经验包括：计算机科学，软件工程，数据科学，机器学习，数据库管理，数据工程等领域。",
+  "aboutSkill": "工作中，我思维活跃，适应能力强，可快速学习新知识，熟悉业务逻辑，在工作经验中都获得同事的认可。对 C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git, Hadoop, Spark 等语言与技术我都十分熟悉。",
+  "transcript": "我的一份成绩单",
   "here": "在这里",
   "resumeURL": "http://www.joe-zyc.cn/static/resume/zh.pdf",
   "educationSummary": [
@@ -55,10 +55,18 @@
       "url": "https://github.com/joe-zyc/cs246-watopoly"
     }
   ],
+  "exp_rakuten": {
+    "company": "Rakuten Rewards",
+    "position": "数据工程师",
+    "duration": "2023.01 - Present",
+    "location": "多伦多，加拿大",
+    "detail": [
+    ]
+  },
   "exp_babylist": {
     "company": "Babylist",
     "position": "数据分析，数据工程实习",
-    "duration": "2022.05 - Present",
+    "duration": "2022.05 - 2022.08",
     "location": "奥克兰，美国",
     "detail": [
       "研究包括 Apache Superset、Metabase、ThoughtSpot、Mode、Google Looker 和 Sigma的自助式 BI 工具。对它们进行了详细的比较和对比，对团队选取 BI 工具起到重要贡献。", 
