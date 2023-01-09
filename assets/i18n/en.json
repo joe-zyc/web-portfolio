@@ -12,10 +12,10 @@
   "contact": "Contact",
   "contactHead": "CONTACT",
   "aboutIntro": "Hello, Welcome to my site. My name is Yuechen Zhang, and usually, people call me Joe.",
-  "aboutCurStat": "I am currently an undergrad student from the University of Waterloo, pursuing my BCS Degree in Data Science. If everything happens as expected, I will be graduating in December 2022. After graduation, I would like to seek for full time opportunities.",
-  "aboutExp": "My academic program also comes with Coop requirements. Hence, I already have over 1 year of working experience. From coursework and internships, I gained lots of knowledge and experience in Computer Science, Statistics, Machine Learning, Database Management, and Software Engineering.",
-  "aboutSkill": "Languages and Technologies I am proficient in include: C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git, DBT, Snowflake etc.",
-  "transcript": "A Copy of my most recent unofficial transcript can be found",
+  "aboutCurStat": "I graduated from the University of Waterloo with a BCS, Data Science degree in December, 2022. Right now, I am a Data Engineer at Rakuten Rewards.",
+  "aboutExp": "From coursework, internships and working experiences, I gained lots of knowledge and experience in Computer Science, Statistics, Machine Learning, Database Management, Data Science, Data Engineering, Artificial Intelligence and Software Engineering.",
+  "aboutSkill": "Languages and Technologies I am proficient in include: C, C++, JavaScript, TypeScript, Angular, React, R, Python, TensorFlow, SQL, NoSQL, Git, DBT, Snowflake, Hadoop, Spark etc.",
+  "transcript": "A Copy of my most recent transcript can be found",
   "here": "here",
   "resumeURL": "http://www.joe-zyc.cn/static/resume/en.pdf",
   "educationSummary": [
@@ -56,10 +56,18 @@
     }
   ],
   "educationProjects": [],
+  "exp_rakuten": {
+    "company": "Rakuten Rewards",
+    "position": "Data Engineer",
+    "duration": "2023.01 - Present",
+    "location": "Toronto, Canada",
+    "detail": [
+    ]
+  },
   "exp_babylist": {
     "company": "Babylist",
     "position": "Data Analytics, Engineering Intern",
-    "duration": "2022.05 - Present",
+    "duration": "2022.05 - 2022.08",
     "location": "Oakland, USA",
     "detail": [
       "Researched on self-service BI tools including Apache Superset, Metabase, ThoughtSpot, Mode, Google Looker and Sigma. Made detailed comparisons and contrasts between them, which helps the team in deciding the best BI tool to use for all stakeholders in the future.",
